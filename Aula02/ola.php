@@ -8,8 +8,7 @@
 <body>
 	<h1>Testando PHP</h1>
 	<?php 
-		echo "Olá Mundo!";
-
+		echo "Olá Mundo";
 	?>
     
 </body>
