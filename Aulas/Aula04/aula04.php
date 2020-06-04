@@ -16,7 +16,12 @@
             $n = 4.5;
             echo "$no<br>";
             echo "$noEx<br>";
-            echo $n;
+            echo "$n<br>";
+            //concatenação
+            $nome = "Gustavo";
+            $idade = 36;
+            echo $nome." tem ".$idade." anos.";
+
         ?>
     </div>
 </body>
