@@ -20,8 +20,6 @@
            echo "<br>A Multiplicação vale ".($n1 * $n2);
            echo "<br> A divisão vale ".($n1/$n2);
            echo "<br>O resto da divisão é ". ($n1%$n2);
-
-
             
         ?>
     </div>
