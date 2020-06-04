@@ -12,8 +12,11 @@
         <?php
             $n =4;
             $no= "Gustavo";
-
-            echo $no;
+            $noEx=(int)"10Gustavo";//Utilizando typeCast
+            $n = 4.5;
+            echo "$no<br>";
+            echo "$noEx<br>";
+            echo $n;
         ?>
     </div>
 </body>
