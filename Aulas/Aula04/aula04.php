@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="_css/estilo.css">
 </head>
 <body>
-    <?php
-        $n =4;
-        $no= "Gustavo";
+    <div>
+        <?php
+            $n =4;
+            $no= "Gustavo";
 
-        echo $no;
-    ?>
+            echo $no;
+        ?>
+    </div>
 </body>
 </html>
