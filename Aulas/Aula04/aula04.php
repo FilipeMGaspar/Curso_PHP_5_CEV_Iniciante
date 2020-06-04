@@ -8,7 +8,10 @@
 </head>
 <body>
     <?php
+        $n =4;
+        $no= "Gustavo";
 
+        echo $no;
     ?>
 </body>
 </html>
