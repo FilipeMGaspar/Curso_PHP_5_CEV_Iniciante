@@ -32,7 +32,11 @@
 
             echo "<br>A raiz de $v1 é ". sqrt($v1);
 
-            
+            echo "<br> o Valor de $v2 arredondado é ". round($v2);// ceil arredonda para cima (por excesso): floor arredonda pra baixo (por defeito)
+
+            echo "<br> a parte inteira de $v2 é ". intval($v2);
+
+            echo "<br>O valor de $v1 em moeda é €". number_format($v1,2);
         ?>
     </div>
 </body>
