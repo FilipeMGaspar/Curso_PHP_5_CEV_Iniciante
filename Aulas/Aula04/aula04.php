@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=
     , initial-scale=1.0">
     <title>Aula04</title>
+    <link rel="stylesheet" href="_css/estilo.css">
 </head>
 <body>
     <?php
