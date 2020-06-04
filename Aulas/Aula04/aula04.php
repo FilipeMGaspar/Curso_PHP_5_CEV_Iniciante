@@ -16,11 +16,15 @@
             $n = 4.5;
             echo "$no<br>";
             echo "$noEx<br>";
-            echo "$n<br>";
+            echo "$n<br><br>";
             //concatenação
             $nome = "Gustavo";
             $idade = 36;
-            echo $nome." tem ".$idade." anos.";
+            echo $nome." tem ".$idade." anos.<br>";
+            // outra forma de concatenação
+            $nome ="Filipe";
+            $idade = "35";
+            echo "<br>$nome tem $idade anos";
 
         ?>
     </div>
