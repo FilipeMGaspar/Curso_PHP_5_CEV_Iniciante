@@ -19,8 +19,8 @@
            $d += 5; 
            echo "A variavel A vale $a";
            echo "<br>A variavel B vale $b";
-           echo "<br>Referenciada. A variavel C vale $c"; 
-           echo "<br>Referenciada. A variavel D vale $d";
+           echo "<br>Referenciada pela variavel D. A variavel C vale $c"; 
+           echo "<br>Referenciada á variavel C. A variavel D vale $d";
         ?>
     </div>
 </body>
