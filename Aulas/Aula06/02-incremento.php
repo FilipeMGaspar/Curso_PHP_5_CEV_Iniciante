@@ -13,7 +13,11 @@
             $atual = $_GET["aa"];
             //echo "Ano atual é $atual e o ano anterior e ".$atual--;//posdecremento
             echo "Ano atual é $atual e o ano anterior e ".--$atual; # prédecremento
-            
+            /*
+                Comentário de várias linhas
+                Esse exercicio pretende demonstrar a
+                utilização de operadores de incremento e decremento
+            */ 
         ?>
     </div>
 </body>
