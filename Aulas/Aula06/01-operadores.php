@@ -13,7 +13,8 @@
           echo "<h1>Operadores de atribuição</h1>";
           $preco = $_GET["p"];
           echo "O preço do produto é $preco €";
-          $preco = $preco + ($preco*10/100);
+          //$preco = $preco + ($preco*10/100);
+          $preco += $preco*10/100; 
           echo "<br>O preço com 10% de aumento será $preco €";
         ?>
     </div>
