@@ -11,12 +11,16 @@
     <div>
         <?php
            $a = 3;
-           $b = $a;
-           $b + = 5;
+           $b = $a;          
+           $b += 5;
 
+           $c = 5;
+           $d = &$c;
+           $d += 5; 
            echo "A variavel A vale $a";
-           echo "A variavel B vale $b";
-
+           echo "<br>A variavel B vale $b";
+           echo "<br>Referenciada. A variavel C vale $c"; 
+           echo "<br>Referenciada. A variavel D vale $d";
         ?>
     </div>
 </body>
