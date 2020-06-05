@@ -11,7 +11,8 @@
     <div>
         <?php
           echo "Operadores de atribuição";
-          
+          $preco = $_GET["p"];
+          echo "o preço do produto é $preco €";
         ?>
     </div>
 </body>
