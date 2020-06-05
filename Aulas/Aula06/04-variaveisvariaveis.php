@@ -14,7 +14,7 @@
           $$x = "def";//O nome da variavel é atribuido pelo valor da variavel $x
 
           echo "O conteudo da variavel X é $x";
-          echo "A variavel criada recebeu o valor de $abc"
+          echo "<br>A variavel ABC criada recebeu o valor de $abc"
         ?>
     </div>
 </body>
