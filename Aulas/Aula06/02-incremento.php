@@ -12,8 +12,7 @@
         <?php
             $atual = $_GET["aa"];
             //echo "Ano atual é $atual e o ano anterior e ".$atual--;//posdecremento
-            echo "Ano atual é $atual e o ano anterior e ".--$atual;//prédecremento
-
+            echo "Ano atual é $atual e o ano anterior e ".--$atual; # prédecremento
             
         ?>
     </div>
