@@ -20,7 +20,7 @@
             //$sit = ($media<6) ? "REPROVADO" : "APROVADO";
             //echo "<br>A Situação do aluno é: $sit";
 
-            echo "<br>A Situação do aluno é: ".(($media<6) ? "REPROVADO" : "APROVADO");
+            echo "<br>A Situação do aluno é: ".(($media<6) ? "REPROVADO" : "APROVADO");//colocando o operador ternário inline
         ?>
     </div>
 </body>
