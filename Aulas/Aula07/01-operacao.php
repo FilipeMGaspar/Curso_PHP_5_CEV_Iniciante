@@ -10,7 +10,19 @@
 <body>
     <div>
         <?php
-            
+            /*
+            Operador unário
+                expreção ? Verdadeiro   : Falso
+
+                $maior =  $a > $b ? $a : $b;
+
+                $r = $a>$b ? $a+$b : $a-$b;
+
+                $sit = $m<7 ? "recuperação" : "aprovado";
+            */
+
+                
+
         ?>
     </div>
 </body>
