@@ -18,6 +18,8 @@
 
            echo "$nome e do género $sexo e tem $idade anos";
         ?>
+        <br><br>
+        <a href="02-exercicio.html">Voltar</a>
     </div>
 </body>
 </html>
