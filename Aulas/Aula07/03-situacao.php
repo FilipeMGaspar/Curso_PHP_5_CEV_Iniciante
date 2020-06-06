@@ -17,9 +17,10 @@
 
             echo "A média entre $nota1 e $nota2 é $media<br>";
 
-            $sit = ($media<6) ? "REPROVADO" : "APROVADO";
+            //$sit = ($media<6) ? "REPROVADO" : "APROVADO";
+            //echo "<br>A Situação do aluno é: $sit";
 
-            echo "<br>A Situação do aluno é: $sit";
+            echo "<br>A Situação do aluno é: ".(($media<6) ? "REPROVADO" : "APROVADO");
         ?>
     </div>
 </body>
