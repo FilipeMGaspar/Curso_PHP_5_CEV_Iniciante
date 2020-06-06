@@ -11,7 +11,7 @@
     <div>
         <?php
             /*
-            Operador unário
+            Operador ternário
                 expreção ? Verdadeiro   : Falso
 
                 $maior =  $a > $b ? $a : $b;
