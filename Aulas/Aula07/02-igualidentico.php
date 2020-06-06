@@ -15,7 +15,7 @@
            
            $r1 = ($a == $b) ? "SIM" : "NÃO"; //Igual não verifica o tipo da variavel apenas o seu valor interno
           
-          $r = ($a === $b) ? "SIM" : "NÃO"; // identico verifica o Tipo de variavel 
+          $r = ($a === $b) ? "SIM" : "NÃO"; // Identico verifica o Tipo de variavel 
 
 
            echo "As variaveis A e B são Iguais: $r1";//Quando utilizamos ==
