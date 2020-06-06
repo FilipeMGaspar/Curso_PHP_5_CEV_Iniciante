@@ -14,8 +14,11 @@
            $idade = 2020 - $ano;
            
            echo "Quem nasceu no ano $ano tem $idade anos de idade";
-
            
+           $tipo = ($idade>=18 && $idade<65) ? "OBRIGATÓRIO" : "NÂO OBRIGATÓRIO";
+
+           echo "<br><br>E dessa forma o seu voto é $tipo";
+
         ?>
     </div>
 </body>
