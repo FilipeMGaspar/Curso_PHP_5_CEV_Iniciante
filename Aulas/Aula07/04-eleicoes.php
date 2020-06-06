@@ -10,7 +10,7 @@
 <body>
     <div>
         <?php
-           $ano = $_GET["an"];
+           $ano = $_GET["an"];//Recebe os valores através da URL
            $idade = 2020 - $ano;
            
            echo "Quem nasceu no ano $ano tem $idade anos de idade";
