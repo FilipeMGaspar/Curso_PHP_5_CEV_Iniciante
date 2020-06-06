@@ -10,7 +10,13 @@
 <body>
     <div>
         <?php
-            
+           $nome = $_GET["nome"];
+           $ano = $_GET["ano"];
+           $sexo = $_GET["sexo"];
+           
+           $idade = date("Y") - $ano;
+
+           echo "$nome e do género $sexo e tem $idade anos";
         ?>
     </div>
 </body>
