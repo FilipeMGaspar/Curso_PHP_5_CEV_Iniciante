@@ -20,7 +20,7 @@
 
            echo "As variaveis A e B são Iguais: $r1";//Quando utilizamos ==
 
-           echo "As variaveis A e B são Identicas: $r";//Quando utilizamos ===
+           echo "<br>As variaveis A e B são Identicas: $r";//Quando utilizamos ===
         ?>
     </div>
 </body>
