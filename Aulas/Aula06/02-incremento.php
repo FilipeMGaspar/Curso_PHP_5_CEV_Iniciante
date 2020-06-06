@@ -14,6 +14,18 @@
             //echo "Ano atual é $atual e o ano anterior e ".$atual--;//posdecremento
             echo "Ano atual é $atual e o ano anterior e ".--$atual; # prédecremento
             
+            $posincremento = 3
+            $preincremento = 3
+
+            $posdecremento = 25
+            $predecremento = 25
+
+            echo "A Variavel A vale $posincremento e a variavel B vale $predecremento";
+
+            echo "<br>A variavel por pos-incremento A++ tem o valor de ".$posincremento++;
+            echo "<br>A variavel por pré-incremento ++A tem o valor de ".++$preincremento;
+            echo "<br><br>A variavel por pos-decremento B-- tem o valor de ".$posdecremento--;
+            echo "<br>A variavel por pré-decremento --B tem o valor de ".--$predecremento;
             /*
                 Comentário de várias linhas
                 Esse exercicio pretende demonstrar a
