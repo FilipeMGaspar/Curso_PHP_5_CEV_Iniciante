@@ -15,6 +15,9 @@
             $rq = sqrt($valor);
             echo "<br>A sua raiz quadrada: ".number_format($rq,2);
         ?>
+        <br>
+        <br>
+        <a href="01-exercicio.html">Voltar</a>
     </div>
 </body>
 </html>
