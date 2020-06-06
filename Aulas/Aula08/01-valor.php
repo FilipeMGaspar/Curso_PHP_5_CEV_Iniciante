@@ -12,7 +12,8 @@
         <?php
             $valor = $_GET["v"];
             echo "O valor enviado foi $valor";
-
+            $rq = sqrt($valor);
+            echo "<br>A sua raiz quadrada: ".number_format($rq,2);
         ?>
     </div>
 </body>
