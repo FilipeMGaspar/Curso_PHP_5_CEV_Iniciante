@@ -10,9 +10,13 @@
 <body>
     <div>
         <?php
-           $nome = $_GET["nome"];
-           $ano = $_GET["ano"];
-           $sexo = $_GET["sexo"];
+
+            //utilizando o operador ternário
+           $nome = isset($_GET["nome"]) ? $_GET["nome"] : "[Não Informado]"; // isset verifica se o valor foi recebido através do formulário
+           
+           $ano = isset($_GET["ano"]) ? $_GET["ano"] : 0;
+
+           $sexo = isset($_GET["sexo"]) ? $_GET["sexo"] : "[Não Informado]";
            
            $idade = date("Y") - $ano;
 
