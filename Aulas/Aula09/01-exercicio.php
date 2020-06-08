@@ -10,12 +10,23 @@
 <body>
     <div>
         <?php
-           $a = isset($_GET["ano"]) ? $_GET["ano"] : 1900;
-           echo "Você nasceu em $a";
+           $a = isset($_GET["ano"]) ? $_GET["ano"] : "1900";
+           $idade = date("Y") - $a;
+           echo "Você nasceu em $a e terá $idade anos";
+            if($dade>=18){
+                $v = "já pode Votar";
+                $d =  "já Pode dirigir";
+            }
+            else{
+                $v= "não Pode Votar";
+                $d = "não pode Dirigir";
+            }
         ?>
+
+        <br>
+        <br>
+         <a href="01-exercicio.html">Voltar</a>
     </div>
-    <br>
-    <br>
-    <a href="01-exercicio.html"><p>Voltar</p></a>
+   
 </body>
 </html>
