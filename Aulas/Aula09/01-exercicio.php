@@ -14,7 +14,7 @@
            $idade = date("Y") - $a;
            echo "Você nasceu em $a e terá $idade anos";
             
-           if($dade >= 18){
+           if($idade>=18){
                 $v = "já pode votar";
                 $d =  "já pode dirigir";
             }
