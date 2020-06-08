@@ -17,7 +17,11 @@
             echo "Obteve $nota1 valores e $nota2 valores";
             echo"<br>Ficando com média de $media";
             
+           
         ?>
+        
+        <br><br>
+        <a href="03-exercicio.html">Voltar</a>
     </div>
      <!--
         ler duas notas
