@@ -21,6 +21,8 @@
                 $v= "não Pode Votar";
                 $d = "não pode Dirigir";
             }
+
+            echo "<br> Com essa idade você $v e também $d";
         ?>
 
         <br>
