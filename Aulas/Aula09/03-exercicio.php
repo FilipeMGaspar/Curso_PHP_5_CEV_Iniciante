@@ -13,5 +13,15 @@
             
         ?>
     </div>
+     <!--
+        ler duas notas
+        calcular a média
+
+            0 - 5 - reprovado
+           
+            5 - 7 - Recuperação
+           
+            7 - 10 - Aprovado 
+    -->
 </body>
 </html>
