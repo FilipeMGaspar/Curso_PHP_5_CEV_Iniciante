@@ -13,7 +13,8 @@
            $a = isset($_GET["ano"]) ? $_GET["ano"] : "1900";
            $idade = date("Y") - $a;
            echo "Você nasceu em $a e terá $idade anos";
-            if($dade>=18){
+            
+           if($dade >= 18){
                 $v = "já pode Votar";
                 $d =  "já Pode dirigir";
             }
