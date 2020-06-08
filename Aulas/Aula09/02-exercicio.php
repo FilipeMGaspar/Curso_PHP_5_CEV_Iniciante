@@ -27,7 +27,7 @@
                }
            }
 
-            echo "<br>Para essa idade $tipoVoto";
+            echo "<br>Para essa idade, $tipoVoto";
         ?>
 
         <br>
