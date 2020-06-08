@@ -24,10 +24,10 @@
                 $sit ="EM RECUPERAÇÂO";
             }
             else{
-                $sit = "APRVADO";
+                $sit = "APROVADO";
             }    
 
-            echo "Ficando $sit";
+            echo " Ficando $sit";
         ?>
         
         <br><br>
