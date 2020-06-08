@@ -15,19 +15,19 @@
             $media = ($nota1 + $nota2)/2;
 
             echo "Obteve $nota1 valores no 1º teste <br> E $nota2 valores no 2º Teste";
-            echo"<br>Ficando com média de $media valores.";
+            echo"<br>Com média de $media valores.";
             
             if($media<5){
                 $sit = "REPROVADO";
             }
-            elseif($medi<7){
+            elseif($media<7){
                 $sit ="EM RECUPERAÇÂO";
             }
             else{
                 $sit = "APRVADO";
             }    
 
-            echo " Ficando $sit";
+            echo "Ficando $sit";
         ?>
         
         <br><br>
