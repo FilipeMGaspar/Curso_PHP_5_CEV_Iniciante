@@ -19,7 +19,7 @@
             $tipoVoto ="não vota";
            }
            else{
-               if($idade<18){
+               if(($idade<18) || ($idade>65)){
                    $tipoVoto ="voto opcional";
                }
                else{
