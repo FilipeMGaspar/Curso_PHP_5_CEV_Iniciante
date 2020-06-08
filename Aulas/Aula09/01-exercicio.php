@@ -12,6 +12,7 @@
         <?php
            $a = isset($_GET["ano"]) ? $_GET["ano"] : "1900";
            $idade = date("Y") - $a;
+           
            echo "Você nasceu em $a e terá $idade anos";
             
            if($idade>=18){
