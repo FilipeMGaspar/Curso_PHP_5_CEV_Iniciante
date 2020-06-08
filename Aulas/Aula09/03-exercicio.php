@@ -10,6 +10,12 @@
 <body>
     <div>
         <?php
+            $nota1 = $_GET["n1"];
+            $nota2 = $_GET["n2"];
+            $media = ($nota1 + $nota2)/2
+
+            echo "Obteve $nota1 valores e $nota2 valores";
+            echo"<br>Ficando com média de $media";
             
         ?>
     </div>
