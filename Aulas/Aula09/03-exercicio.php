@@ -20,7 +20,7 @@
             if($media<5){
                 $sit = "REPROVADO";
             }
-            elseif()$medi<7{
+            elseif($medi<7){
                 $sit ="EM RECUPERAÇÂO";
             }
             else{
