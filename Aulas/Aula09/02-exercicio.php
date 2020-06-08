@@ -15,16 +15,19 @@
            
            echo "Você nasceu em $a e terá $idade anos";
             
-           if($idade>=18){
-                $v = "já pode votar";
-                $d =  "já pode dirigir";
-            }
-            else{
-                $v= "não pode votar";
-                $d = "não pode dirigir";
-            }
+           if($idade<16){
+            $tipoVoto ="não vota";
+           }
+           else{
+               if($idade<18){
+                   $tipoVoto ="voto opcional";
+               }
+               else{
+                   $tipoVoto = "voto obrigatório";
+               }
+           }
 
-            echo "<br> Com essa idade você $v e também $d";
+            echo "<br>Para essa idade $tipoVoto";
         ?>
 
         <br>
