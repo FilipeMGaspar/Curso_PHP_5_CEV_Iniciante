@@ -14,5 +14,8 @@
            echo "Você nasceu em $a";
         ?>
     </div>
+    <br>
+    <br>
+    <a href="01-exercicio.html"><p>Voltar</p></a>
 </body>
 </html>
