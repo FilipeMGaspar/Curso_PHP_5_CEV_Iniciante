@@ -15,17 +15,16 @@
            
            echo "Você nasceu em $a e terá $idade anos";
             
-           if($idade<16){
-            $tipoVoto ="não vota";
-           }
-           else{
-               if(($idade<18) || ($idade>65)){
-                   $tipoVoto ="o voto é opcional";
-               }
-               else{
+            if($idade<16){
+                $tipoVoto ="não vota";
+            }
+            elseif(($idade<18) || ($idade>65)){
+                $tipoVoto ="o voto é opcional";
+             }
+                else{
                    $tipoVoto = "o voto é obrigatório";
-               }
-           }
+                }
+            }
 
             echo "<br>Para essa idade, $tipoVoto";
         ?>
