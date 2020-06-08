@@ -20,10 +20,10 @@
            }
            else{
                if(($idade<18) || ($idade>65)){
-                   $tipoVoto ="voto opcional";
+                   $tipoVoto ="o voto é opcional";
                }
                else{
-                   $tipoVoto = "voto obrigatório";
+                   $tipoVoto = "o voto é obrigatório";
                }
            }
 
