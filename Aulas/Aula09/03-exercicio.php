@@ -10,6 +10,15 @@
         $nota1 = $_GET["n1"];
         $nota2 = $_GET["n2"];
         $media = ($nota1 + $nota2)/2;
+        if($media<5){
+            $sit = "REPROVADO";
+        }
+        elseif($media<7){
+            $sit ="EM RECUPERAÇÂO";
+        }
+        else{
+            $sit = "APROVADO";
+        }   
 
     ?>
     <!-- 
@@ -18,22 +27,11 @@
 </head>
 <body>
     <div>
-        <?php
-            
+        <?php            
 
             echo "Obteve $nota1 valores no 1º teste <br> E $nota2 valores no 2º Teste";
-            echo"<br>Com média de $media valores.";
-            
-            if($media<5){
-                $sit = "REPROVADO";
-            }
-            elseif($media<7){
-                $sit ="EM RECUPERAÇÂO";
-            }
-            else{
-                $sit = "APROVADO";
-            }    
-
+            echo"<br>Com média de $media valores.";        
+           
             echo " Ficando $sit";
         ?>
         
