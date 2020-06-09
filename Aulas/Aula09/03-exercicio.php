@@ -24,7 +24,9 @@
 
 <style>
         span{
-            color: #386FA4;
+            color: #874000;
+            font-size: 16pt;
+            font-weight: bold;
         }
     </style>
     <!-- 
