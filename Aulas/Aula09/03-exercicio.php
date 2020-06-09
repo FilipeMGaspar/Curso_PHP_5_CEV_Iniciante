@@ -6,6 +6,10 @@
     , initial-scale=1.0">
     <title>Aula09 - estrutura Condicional if</title>
     <link rel="stylesheet" href="_css/estilo.css">
+
+    <!-- 
+        Em falta a Formatação de cores
+    -->
 </head>
 <body>
     <div>
@@ -33,12 +37,6 @@
         <br><br>
         <a href="03-exercicio.html">Voltar</a>
     </div>
-     <!--
-            0 - 5 - reprovado
-           
-            5 - 7 - Recuperação
-           
-            7 - 10 - Aprovado 
-    -->
+   
 </body>
 </html>
