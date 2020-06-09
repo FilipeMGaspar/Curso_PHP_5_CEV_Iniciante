@@ -21,6 +21,12 @@
         }   
 
     ?>
+
+<style>
+        span{
+            color: #386FA4;
+        }
+    </style>
     <!-- 
         Em falta a Formatação de cores
     -->
@@ -29,7 +35,7 @@
     <div>
         <?php            
 
-            echo "Obteve $nota1 valores no 1º teste <br> E $nota2 valores no 2º Teste";
+            echo "Obteve <span>$nota1</span> valores no 1º teste <br> E <span>$nota2</span> valores no 2º Teste";
             echo"<br>Com média de $media valores.";        
            
             echo " Ficando $sit";
