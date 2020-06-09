@@ -39,9 +39,6 @@
             font-weight: bold;
         }
     </style>
-    <!-- 
-        Em falta a Formatação de cores
-    -->
 </head>
 <body>
     <div>
