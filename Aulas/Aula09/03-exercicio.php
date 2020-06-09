@@ -12,14 +12,16 @@
         $media = ($nota1 + $nota2)/2;
         if($media<5){
             $sit = "REPROVADO";
-            $cor = "#621B00";
+            $cor = "#9A031E";
         }
         elseif($media<7){
             $sit ="EM RECUPERAÇÂO";
-            $cor = "#EB8258"
+            $cor = "#FB8B24";
         }
         else{
             $sit = "APROVADO";
+            $cor= "#28965A";
+
         }   
 
     ?>
@@ -32,7 +34,7 @@
         }
 
         span.situacao{
-            color: <?php echo $cor; ?>;
+            color: <?php echo $cor;?>;
             font-size: 17pt;
             font-weight: bold;
         }
