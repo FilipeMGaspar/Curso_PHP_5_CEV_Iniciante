@@ -12,9 +12,11 @@
         $media = ($nota1 + $nota2)/2;
         if($media<5){
             $sit = "REPROVADO";
+            $cor = "#621B00";
         }
         elseif($media<7){
             $sit ="EM RECUPERAÇÂO";
+            $cor = "#EB8258"
         }
         else{
             $sit = "APROVADO";
