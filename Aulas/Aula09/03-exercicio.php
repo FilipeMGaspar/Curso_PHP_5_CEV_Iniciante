@@ -38,7 +38,7 @@
         <?php            
 
             echo "Obteve <span>$nota1</span> valores no 1º teste <br> E <span>$nota2</span> valores no 2º Teste";
-            echo"<br>Com média de $media valores.";        
+            echo"<br>Com média de <span>$media</span> valores.";        
            
             echo " Ficando $sit";
         ?>
