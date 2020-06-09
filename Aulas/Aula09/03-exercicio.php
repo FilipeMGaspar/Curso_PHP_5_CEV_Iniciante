@@ -28,6 +28,12 @@
             font-size: 16pt;
             font-weight: bold;
         }
+
+        span.situacao{
+            color: <?php echo $cor; ?>;
+            font-size: 17pt;
+            font-weight: bold;
+        }
     </style>
     <!-- 
         Em falta a Formatação de cores
@@ -40,7 +46,7 @@
             echo "Obteve <span>$nota1</span> valores no 1º teste <br> E <span>$nota2</span> valores no 2º Teste";
             echo"<br>Com média de <span>$media</span> valores.";        
            
-            echo " Ficando $sit";
+            echo " Ficando <span class='situacao'>$sit</span>";
         ?>
         
         <br><br>
