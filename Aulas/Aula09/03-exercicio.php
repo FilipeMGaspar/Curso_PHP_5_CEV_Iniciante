@@ -16,7 +16,7 @@
         }
         elseif($media<7){
             $sit ="EM RECUPERAÇÂO";
-            $cor = "#FB8B24";
+            $cor = "#D74E09";
         }
         else{
             $sit = "APROVADO";
