@@ -29,7 +29,7 @@
         ?>
         <br>
         <br>
-        <a href="01-exercicio.html">Voltar</a>
+        <a href="01-exercicio.html" class="botao">Voltar</a>
     </div>
 </body>
 </html>
