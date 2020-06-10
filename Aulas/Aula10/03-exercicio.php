@@ -108,7 +108,8 @@
                 case 20:
                     $reg="á Madeira";
         }
-        echo "O distrito de $d pertence $reg";
+        echo "O distrito de <span class='foco'>$d</span>
+         pertence <span class='foco'>$reg</span>";
     ?>
         <br>
         <br>
