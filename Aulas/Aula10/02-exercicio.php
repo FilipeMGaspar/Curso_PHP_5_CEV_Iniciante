@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=
     , initial-scale=1.0">
-    <title>Aula10 - estrutura Condicional Switch</title>
+    <title>Aula10 - Estrutura Condicional Switch</title>
     <link rel="stylesheet" href="_css/estilo.css">
 </head>
 <body>
