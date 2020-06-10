@@ -103,10 +103,10 @@
                     $reg="á Regiao do Algrave";
                 break;
                 case 19:
-                     $reg= "aos Açores";
+                     $reg= "ás ilhas dos Açores";
                 break;
                 case 20:
-                    $reg="á Madeira";
+                    $reg="á ilha da Madeira";
         }
         echo "O distrito de <span class='foco'>$d</span>
          pertence <span class='foco'>$reg</span>";
