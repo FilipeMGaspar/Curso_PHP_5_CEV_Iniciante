@@ -11,6 +11,10 @@
     <div>
         <?php
            $vinicial = isset($_GET["vini"]) ? $_GET["vini"] : 0;
+           $vfinal = isset($_GET["vfim"]) ? $_GET["vfim"] : 0;
+           $salto = isset($_GET["inc"]) ? $_GET["inc"] : 0;
+
+           
         ?>
         <br>
         <br>
