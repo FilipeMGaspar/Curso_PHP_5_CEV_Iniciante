@@ -10,7 +10,14 @@
 <body>
     <div>    
             <?php
-                
+                $i=1;
+                while ($i<=5){
+                    $var = "num";
+                    $$var = $i;
+                    $i++;
+                }
+
+                echo $num1;
             ?>
        
         <br>
