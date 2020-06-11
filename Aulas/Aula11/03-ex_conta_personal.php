@@ -14,7 +14,13 @@
            $vfinal = isset($_GET["vfim"]) ? $_GET["vfim"] : 0;
            $salto = isset($_GET["inc"]) ? $_GET["inc"] : 0;
 
-           
+           if($vinicial < $vfinal){
+               $c = $vinicial;
+                while($c <= $vfinal){
+                    echo $c;
+                    $c += $salto;
+                }
+           }
         ?>
         <br>
         <br>
