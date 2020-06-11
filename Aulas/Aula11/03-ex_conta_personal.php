@@ -22,7 +22,12 @@
                 }
                 echo "Fim!";
            }else{
-               
+               $c = $vinicial;
+               while ($c >= $vfinal){
+                   echo "$c - ";
+                   $c -= $salto;
+               }
+               echo "Fim!";
            }
         ?>
         <br>
