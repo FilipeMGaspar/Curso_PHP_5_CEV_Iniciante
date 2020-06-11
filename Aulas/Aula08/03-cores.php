@@ -25,7 +25,7 @@
             echo "<span class='texto'>$txt</span>";
         ?>
         <br><br><br>
-        <a href="03-exercicio.html">Nova formatação</a>
+        <a href="03-exercicio.html">Nova Formatação</a>
     </div>
 </body>
 </html>
