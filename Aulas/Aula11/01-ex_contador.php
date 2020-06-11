@@ -10,11 +10,20 @@
 <body>
     <div>
         <?php
+            /* Contagem de 1 até 10
             $c=1;
 
             while($c<=10){
                 echo $c."<br>";
                 $c++;
+            }
+            */
+
+            //Contagem de 10 até 1
+            $c=10;
+            while ($c>=1){
+                echo $c."<br>";
+                $c--;
             }
         ?>
     <!-- 
