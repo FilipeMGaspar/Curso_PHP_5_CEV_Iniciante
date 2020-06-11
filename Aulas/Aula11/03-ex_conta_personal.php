@@ -9,6 +9,7 @@
 </head>
 <body>
     <div>
+        
         <?php
            $vinicial = isset($_GET["vini"]) ? $_GET["vini"] : 0;
            $vfinal = isset($_GET["vfim"]) ? $_GET["vfim"] : 0;
@@ -30,6 +31,7 @@
                echo "Fim!";
            }
         ?>
+
         <br>
         <br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>
