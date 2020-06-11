@@ -10,11 +10,20 @@
 <body>
     <div>
         <?php
-            
+           $vinicial = isset($_GET["vini"]) ? $_GET["vini"] : 0;
         ?>
         <br>
         <br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>
     </div>
+      <!-- 
+        contador personalizado
+        Pede inicio
+        pede fim
+        e o incremento
+
+        Faz contagem progressiva se o inicio for menor que o fim e
+        o programa é capaz de detectar se o inicial é maior que o final e faz um contagem regressiva
+    -->
 </body>
 </html>
