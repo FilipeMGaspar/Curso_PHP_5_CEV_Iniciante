@@ -12,12 +12,28 @@
             <?php
                 $i=1;
                 while ($i<=5){
-                    $var = "num";
-                    $$var = $i;
+                    $v = "num".$i;//Criação de variavel dinamicamente $v1 $v2 .... $v5
+                    $url = "v".$i ; // 
+                    $$v = isset($_GET["$url"]) ? $_GET[$url] : 0; // $$v variavel da variavel $v com nome $num1 $num2 .... $num5
                     $i++;
                 }
 
-                echo $num1;
+                $c = 1;
+                while ($c<=5){
+                    $v = "num".$c;
+                    echo "Valor $c: ". $$v."<br>";
+                    $c++;
+                }
+
+                /* 
+                  Ou também é possivel 
+                    $i=1;
+                        while ($i<=5) {
+                            $n1 = $_GET["num$i"];
+                            echo "Número $i:  $n1</br>";
+                            $i++;
+                        } 
+                */
             ?>
        
         <br>
