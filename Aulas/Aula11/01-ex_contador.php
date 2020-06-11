@@ -17,9 +17,11 @@
                 $c++;
             }
         ?>
+    <!-- 
         <br>
         <br>
-        <a href="javascript:history.go(-1)" class="botao">Voltar</a>
+        <a href="javascript:history.go(-1)" class="botao">Voltar</a> 
+    -->
     </div>
 </body>
 </html>
