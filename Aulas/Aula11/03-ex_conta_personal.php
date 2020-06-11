@@ -17,9 +17,10 @@
            if($vinicial < $vfinal){
                $c = $vinicial;
                 while($c <= $vfinal){
-                    echo $c;
+                    echo "$c - ";
                     $c += $salto;
                 }
+                echo "Fim!";
            }
         ?>
         <br>
