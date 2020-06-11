@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="_css/estilo.css">
 </head>
 <body>
-    <div>
-        <?php
-            
-        ?>
+    <div>    
+       <form method="GET" action="02-ex_parte2.php">
+            Valor 1: <input type="number" name="v1" max="100" min="0" value="0"><br>
+            <input type="submit" class="botao" value="Enviar">
+       </form> 
+       
     <!--
         <br>
         <br>
