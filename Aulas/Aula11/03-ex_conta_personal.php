@@ -21,6 +21,8 @@
                     $c += $salto;
                 }
                 echo "Fim!";
+           }else{
+               
            }
         ?>
         <br>
