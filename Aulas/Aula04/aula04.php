@@ -17,7 +17,7 @@
             echo "$no<br>";
             echo "$noEx<br>";
             echo "$n<br><br>";
-            //concatenação
+            //concatenação através do .
             $nome = "Gustavo";
             $idade = 36;
             echo $nome." tem ".$idade." anos.<br>";
