@@ -9,7 +9,7 @@
 
     <style>
         h1{
-            font-size: 19pt;
+            font-size: 17pt;
         }
     </style>
 
@@ -19,7 +19,12 @@
         <?php
             $tabnr = isset($_GET["nrtab"]) ? $_GET["nrtab"] : 1;
             
-            echo "<h1>Tabuada do $tabnr</h1>";
+            echo "<h1>Calculo da tabuada do $tabnr</h1>";
+
+            for($i=1; $i<=10; $i++){
+                $r = $tabnr * $i;
+                echo "$tabnr X $i = $r<br>";
+            }
 
         ?>
         <br>
