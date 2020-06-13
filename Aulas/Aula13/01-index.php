@@ -10,11 +10,16 @@
 <body>
     <div>
         <?php
-            
+            for($i=1; $i<=10; $i++){
+                echo $i." ";
+            }
         ?>
+        
+        <!--
         <br>
         <br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>
+        -->
     </div>
 </body>
 </html>
