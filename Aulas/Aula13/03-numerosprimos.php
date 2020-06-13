@@ -15,7 +15,7 @@
              $nr = isset($_GET["num"]) ? $_GET["num"] : 1;
 
              $nrdiv = 0;
-             echo "O Número $nr tem como:<br><br>";
+             echo "O Número <span class='foco'>$nr</span> tem como:<br><br>";
  
              echo "..: Multiplos: ";
              for($i=1; $i<=$nr; $i++){
@@ -34,7 +34,7 @@
             echo "<br>";   
             echo "<br>..: Número de multiplos: $nrdiv";
             echo "<br>";
-            echo "<br>..: Resultado: $nr <span class='foco'>$result</span>";
+            echo "<br>..: Resultado: O número $nr <span class='foco'>$result</span>";
         ?>
         <br>
         <br>
