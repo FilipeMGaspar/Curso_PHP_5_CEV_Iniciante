@@ -10,7 +10,6 @@
 </head>
 <body>
     <div>
-        <!-- Verifica se o numero é primo contagem até os póroprio número-->
         <?php 
              $nr = isset($_GET["num"]) ? $_GET["num"] : 1;
 
