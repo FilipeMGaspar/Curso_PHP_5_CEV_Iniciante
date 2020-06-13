@@ -12,15 +12,19 @@
         <!-- Verifica se o numero é primo contagem até os póroprio número-->
         <?php
             $nr = isset($_GET["num"]) ? $_GET["num"] : 1;
-            
-            echo "O Número $nr tem como:<br>";
+            $nrdiv = 0;
+            echo "O Número $nr tem como:<br><br>";
 
             echo "..: Multiplos: ";
             for($i=1; $i<=$nr; $i++){
                 if (($nr % $i)==0){
                    echo $i." ";
+                   $nrdiv ++;
                 } 
             }
+            echo "<br>";
+
+            echo "<br>..: Número de multiplos: $nrdiv";
             echo "<br>";
         ?>
         <br>
