@@ -12,7 +12,7 @@
             font-size: 16pt;
         }
     </style>
-    
+
 </head>
 
 <body>
@@ -21,11 +21,12 @@
             $tab = isset($_GET["numtab"]) ? $_GET["numtab"] : 1;
 
             echo "<h1>Tabuada do $tab</h1>";
-           /* $c =1;
+            $c =1;
             do{
-                echo "$tab X $c = <br>";
+                $r = $tab * $c;
+                echo "$tab X $c = $r<br>";
                 $c++;
-            }while($c<=10);*/
+            }while($c<=10);
 
         ?>
         <br>
