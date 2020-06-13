@@ -10,11 +10,21 @@
 <body>
     <div>
         <?php
+            echo "Contagem de 1 até 10 de 1 em 1:<br>";
             $c = 1;
             do{
                 echo $c." ";
                 $c++;
             }while($c<=10);
+
+            echo "<br><br>Contagem de 0 até 20 de 2 em 2:<br>";
+
+            $c=0;
+            do{
+                echo $c." ";
+                $c += 2; 
+            }while($c<=20);
+
         ?>
     <!--
         <br>
