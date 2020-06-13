@@ -4,15 +4,18 @@
     <link rel="stylesheet" href="_css/estilo.css"/>
     <meta charset="UTF-8"/>
     <title>Aula12 - Estrutura de Repetição Do While</title>
+    
+    <style>
+        h1{
+            font-size: 16pt;
+        }
+        select{
+            width: 40px;
+        }
+    </style>
+
 </head>
-<style>
-    h1{
-        font-size: 16pt;
-    }
-    select{
-        width: 40px;
-    }
-</style>
+
 <body>
 <div>
     <form method="GET" action="03-calctabuada.php">

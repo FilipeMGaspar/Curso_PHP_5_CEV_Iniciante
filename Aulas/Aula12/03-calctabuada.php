@@ -6,13 +6,21 @@
     , initial-scale=1.0">
     <title>Aula12 - Estrutura de Repetição Do While</title>
     <link rel="stylesheet" href="_css/estilo.css">
+    
+    <style>
+        h1{
+            font-size: 16pt;
+        }
+    </style>
+    
 </head>
+
 <body>
     <div>
         <?php
             $tab = isset($_GET["numtab"]) ? $_GET["numtab"] : 1;
 
-            echo "<h1>Tabuadad do $tab</h1>";
+            echo "<h1>Tabuada do $tab</h1>";
            /* $c =1;
             do{
                 echo "$tab X $c = <br>";
