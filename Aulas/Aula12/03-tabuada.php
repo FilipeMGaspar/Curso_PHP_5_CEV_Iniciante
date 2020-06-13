@@ -7,7 +7,7 @@
     
     <style>
         h1{
-            font-size: 16pt;
+            font-size: 18pt;
         }
         select{
             width: 40px;
