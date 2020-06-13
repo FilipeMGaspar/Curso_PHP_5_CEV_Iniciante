@@ -22,16 +22,19 @@
         <h1>Calculadora de Tabuadas!</h1>
         <form method="GET" action="02-tabuada.php">
             Tabuada do: <select name="nrtab" id="cxnrtab">
-                <!--<?php
-                    
-                ?>-->
+                <?php
+                   for($i=1; $i<=10; $i++){ 
+                       echo "<option value='$i'>$i</option>";
+                   }     
+                ?>
             </select>
             <input type="submit" class="botao" value="calcular">
         </form>
-       
+       <!--
         <br>
         <br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>
+        -->
     </div>
 </body>
 </html>
