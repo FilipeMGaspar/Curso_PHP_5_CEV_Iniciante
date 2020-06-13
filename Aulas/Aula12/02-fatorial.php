@@ -14,12 +14,13 @@
             echo "<h1>Calculo do Fatorial de $v</h1>";
             $fact = 1;
             $c = $v;
+            
             do{
                 $fact *= $c;
-                echo $c." ";
                 $c--;                
             }while($c>=1); 
-            echo "<br>Igual a $fact";
+
+            echo "<h2>$v! = $fact</h2>";
 
         ?>
         <br>
