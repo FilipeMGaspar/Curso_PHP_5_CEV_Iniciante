@@ -12,6 +12,13 @@
         <?php
             $v = isset($_GET["val"]) ? $_GET["val"] : 1;
             echo "<h1>Calculo do Fatorial de $v</h1>";
+
+            $c = $v;
+            do
+             echo $c." ";
+             $c--;
+            while($c<=1); 
+
         ?>
         <br>
         <br>
