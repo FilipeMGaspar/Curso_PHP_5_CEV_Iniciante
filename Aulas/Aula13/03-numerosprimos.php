@@ -11,7 +11,14 @@
     <div>
         <!-- Verifica se o numero é primo contagem até os póroprio número-->
         <?php
-            
+            $nr = isset($_GET["num"]) ? $_GET["num"] : 1;
+           
+            for($i=1; $i<=$nr; $i++){
+                if (($nr % $i)==0){
+                   echo $i." ";
+                }
+                
+            }
         ?>
         <br>
         <br>
