@@ -24,10 +24,17 @@
                     $nrdiv ++;
                  } 
              }
+
+             if($nrdiv==2){
+                $result = "É Primo!";
+             }else{
+                $result = "NÃO É PRIMO!";
+             }
+
             echo "<br>";   
             echo "<br>..: Número de multiplos: $nrdiv";
             echo "<br>";
-            echo "<br>..: Resultado: $nr ";
+            echo "<br>..: Resultado: $nr <span class='foco'>$result</span>";
         ?>
         <br>
         <br>
