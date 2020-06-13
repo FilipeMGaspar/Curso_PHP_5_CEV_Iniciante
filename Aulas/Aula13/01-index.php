@@ -25,6 +25,11 @@
             for($i=0; $i<=50; $i+=5){
                 echo $i." ";
             }
+
+            echo "<br>";
+            for($i=20; $i>=0; $i-=2){
+                print $i." ";//print é outro comando de saida
+            }
         ?>
 
     
