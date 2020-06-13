@@ -31,7 +31,6 @@
                 print $i." ";//print é outro comando de saida
             }
         ?>
-
     
         <!--
         <br>
