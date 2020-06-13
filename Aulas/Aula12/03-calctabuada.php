@@ -10,7 +10,13 @@
 <body>
     <div>
         <?php
-            
+            $tab = isset($_GET["numtab"]) $ $_GET["numtab"] : 1;
+            $c = 1;
+            do{
+                echo "$tab X $c = ";
+                $c++;
+            }while($c<=10);
+
         ?>
         <br>
         <br>
