@@ -21,14 +21,13 @@
             <?php
                 $c = 1;
                 do{
-                   echo "<option>$c</option>"; 
+                   echo "<option value='$c'>$c</option>"; 
                    $c++; 
                 }while($c<=10);
             ?>
         </select>
         <input type="submit" value="Calcular" class="botao">
     </form>
-    <!-- O utilizador escolhe a tabuada as opções foram criadas dinamicamente  -->
 </div>
 </body>
 </html>
