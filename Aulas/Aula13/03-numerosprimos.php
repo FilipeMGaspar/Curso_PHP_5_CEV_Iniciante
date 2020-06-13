@@ -11,22 +11,19 @@
          $nr = isset($_GET["num"]) ? $_GET["num"] : 1;
          $nrdiv = 0;
          
-         echo "O Número $nr tem como:<br><br>";
-         echo "O Número $nr tem como:<br><br> ..: Multiplos: ";
          for($i=1; $i<=$nr; $i++){
              if (($nr % $i)==0){
-                echo $i." ";
                 $nrdiv ++;
              } 
          }
-         echo "<br>";
     ?>
 
 </head>
 <body>
     <div>
         <!-- Verifica se o numero é primo contagem até os póroprio número-->
-        <?php        
+        <?php 
+               
             echo "<br>..: Número de multiplos: $nrdiv";
             echo "<br>";
             echo "<br>..: Resultado: $nr ";
