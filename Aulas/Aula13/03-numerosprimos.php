@@ -26,6 +26,7 @@
 
             echo "<br>..: Número de multiplos: $nrdiv";
             echo "<br>";
+            echo "<br>..: Resultado: $nr ";
         ?>
         <br>
         <br>
