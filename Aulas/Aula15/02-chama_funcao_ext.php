@@ -10,11 +10,14 @@
 <body>
     <div>
         <?php
-            
+            include "02-funcao_ext.php";   
+             
         ?>
+        <!--
         <br>
         <br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>
+        -->
     </div>
 </body>
 </html>
