@@ -16,6 +16,8 @@
             ola();
 
             mostravalor(5);
+
+            echo "Terminando o programa.";
         ?>
         <!--
         <br>

@@ -4,6 +4,6 @@
     }
 
     function mostravalor($v){
-        echo "<h2>acabei de receber o valor: $v</h2>";
+        echo "<h2>Acabei de receber o valor: $v</h2>";
     }
 ?>
