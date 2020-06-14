@@ -11,17 +11,18 @@
     <div>
         <?php
             function soma(){
-                $p = func_get_arg();
+                $p = func_get_args();
                 $t = func_num_args();
                 $s = 0;
-                for($i=0; $i<=$t; $i++){
+                for($i=0; $i<$t; $i++){
+                    echo $p[$i]." ";
                     $s += $p[$i];
                 }
                 return $s;
             }    
 
-            $res = soma(3, 7, 4, 6, 8);
-            echo "Somatório: $res ";
+            $res = soma(2,3);
+            echo "Somatório: $res";
         ?>
         <!--
         <br>
