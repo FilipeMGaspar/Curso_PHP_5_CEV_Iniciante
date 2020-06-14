@@ -20,7 +20,7 @@
                 return $s;
             }    
 
-            $res = soma(7,3,8,9);
+            $res = soma(7,3,8,9,10);
             echo "A soma dos valores é: $res";
         ?>
         <!--
