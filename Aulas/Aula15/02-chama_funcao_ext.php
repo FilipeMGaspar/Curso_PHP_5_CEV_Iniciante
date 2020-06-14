@@ -11,7 +11,9 @@
     <div>
         <?php
             include "02-funcao_ext.php";   
-             
+            echo "<h1>Testando novas funções!</h1>";
+            
+            ola();
         ?>
         <!--
         <br>
