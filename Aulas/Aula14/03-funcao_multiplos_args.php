@@ -15,7 +15,6 @@
                 $t = func_num_args();
                 $s = 0;
                 for($i=0; $i<$t; $i++){
-                    echo $p[$i]." ";
                     $s += $p[$i];
                 }
                 return $s;
