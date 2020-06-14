@@ -20,8 +20,8 @@
                 return $s;
             }    
 
-            $res = soma(2,3);
-            echo "Somatório: $res";
+            $res = soma(7,3,8,9);
+            echo "A soma dos valores é: $res";
         ?>
         <!--
         <br>
