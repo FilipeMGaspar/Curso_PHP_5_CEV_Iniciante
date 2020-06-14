@@ -10,11 +10,31 @@
 <body>
     <div>
         <?php
-            
+            //A função teste($x) recebe a passagem por valor não sendo alterado o valor da variavel no corpo do programa
+            function teste($x){//Passagem por valor
+                $x+=2;
+                echo "<p>O valor de x é $x</p>";
+            }    
+
+            //a Função tstref(&$v) recebe a passagem por referencia á variavel alterando o seu valor no corpo do programa
+            function tstref(&$v){//passagem por referencia
+                $v += 2;
+                echo "<p>O valor da variavel v é $v</p>";
+            }
+
+            $a = 3;//Passagem por valor
+            teste($a);//Passagem por valor
+            echo "<p>O valor de a é $a</p>";
+
+            $b = 6;//passagem por referencia
+            tstref($b)//passagem por referencia
+            echo "<p>O valor da variavél B ´3 $b</p>";
         ?>
+        <!--
         <br>
         <br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>
+        -->
     </div>
 </body>
 </html>
