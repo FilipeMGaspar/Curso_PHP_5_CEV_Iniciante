@@ -10,7 +10,8 @@
 <body>
     <div>
         <?php
-            include "02-funcao_ext.php";   
+            //include "02-funcao_ext.php";   
+            include "02funcaoext.php";
             echo "<h1>Testando novas funções!</h1>";
             
             ola();
