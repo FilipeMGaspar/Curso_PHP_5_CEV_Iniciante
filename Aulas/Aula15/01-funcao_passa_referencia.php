@@ -22,13 +22,15 @@
                 echo "<p>O valor da variavel v é $v</p>";
             }
 
+            //Utiliação de Função com passagem de variavel por valor 
             $a = 3;//Passagem por valor
             teste($a);//Passagem por valor
             echo "<p>O valor de a é $a</p>";
 
+            //Utilização de Função com passagem de variavel por referência 
             $b = 6;//passagem por referencia
-            tstref($b)//passagem por referencia
-            echo "<p>O valor da variavél B ´3 $b</p>";
+            tstref($b);//passagem por referencia
+            echo "<p>O valor da variavél B é $b</p>";
         ?>
         <!--
         <br>
