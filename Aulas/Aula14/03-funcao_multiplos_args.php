@@ -10,11 +10,24 @@
 <body>
     <div>
         <?php
-            
+            function soma(){
+                $p = func_get_arg();
+                $t = func_num_args();
+                $s = 0;
+                for($i=0; $i<=$t; $i++){
+                    $s += $p[$i];
+                }
+                return $s;
+            }    
+
+            $res = soma(3, 7, 4, 6, 8);
+            echo "Somatório: $res ";
         ?>
+        <!--
         <br>
         <br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>
+        -->
     </div>
 </body>
 </html>
