@@ -10,8 +10,18 @@
 <body>
     <div>
         <?php
-            //include "02-funcao_ext.php";   
-            include "02funcaoext.php";
+
+            /*
+                Diferença entre o include e o required  
+                
+                require "02funcaoext.php";  No caso de falha do arquivo o programa para e não executa mais nada
+
+                include "02funcaoext.php"; No caso de falha do arquivo o programa continua execução
+            */
+            
+
+            include "02-funcao_ext.php";          
+
             echo "<h1>Testando novas funções!</h1>";
             
             ola();
