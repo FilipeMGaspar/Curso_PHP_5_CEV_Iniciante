@@ -14,6 +14,8 @@
             echo "<h1>Testando novas funções!</h1>";
             
             ola();
+
+            mostravalor(5);
         ?>
         <!--
         <br>
