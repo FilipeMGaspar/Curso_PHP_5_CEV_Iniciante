@@ -11,8 +11,8 @@
     <div>
         <?php
             function soma($a, $b){
-                $s = $a + $b;
-                return $s;
+                //$s = $a + $b;
+                return $a + $b;
             }
 
             $x=3;
