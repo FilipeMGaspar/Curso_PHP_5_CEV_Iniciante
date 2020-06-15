@@ -43,14 +43,14 @@
             $vet[0]="Curso";
             $vet[1]="em";
             $vet[2]="Video";
-            $t=implode(" ",$vet);
+            $t=implode(" ",$vet);//implode() pode ser subtituido por join()
             echo "<br/>$t<br/>";
 
             //função chr
             $letra=chr(67);
             echo "A letra de código <span class='foco'>67</span> é a letra <span class='foco'>$letra</span><br/>";
 
-            
+
 
         ?>
         <!--
