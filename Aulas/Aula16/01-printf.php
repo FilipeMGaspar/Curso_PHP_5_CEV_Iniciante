@@ -16,7 +16,8 @@
             //Modo antico com o .number_format()
            // echo "o $p custa R$ ".number_format($pr, 2);
 
-           
+           // utilizando o comando printf
+           printf ("O %s custa R$ %.2f", $p, $pr);
         ?>
         <!--
         <br>
