@@ -14,9 +14,11 @@
             $pr = 4.5;
             echo "o $p custa R$ $pr";
         ?>
+        <!--
         <br>
         <br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>
+        -->
     </div>
 </body>
 </html>
