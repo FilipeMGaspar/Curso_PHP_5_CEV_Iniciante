@@ -12,7 +12,7 @@
         <?php
             $t = "Aqui temos um texto gigante criado pelo PHP e vai mostrar como funciona a função WordWrap";
 
-            $r = wordwrap($t, 20);
+            $r = wordwrap($t, 20, "<br>\n");
 
             echo $t;
         ?>
