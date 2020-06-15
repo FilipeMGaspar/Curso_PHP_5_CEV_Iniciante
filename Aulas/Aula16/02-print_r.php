@@ -10,11 +10,17 @@
 <body>
     <div>
         <?php
-            
+           $v[0]=4;
+           $v[1]=8; 
+           $v[2]=3;
+
+           print_r($v);
         ?>
+        <!--
         <br>
         <br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>
+        -->
     </div>
 </body>
 </html>
