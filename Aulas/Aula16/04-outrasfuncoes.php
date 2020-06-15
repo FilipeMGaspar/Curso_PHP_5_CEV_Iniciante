@@ -39,6 +39,13 @@
             $v=str_split($nome);
             print_r($v);
 
+            // função Implode
+            $vet[0]="Curso";
+            $vet[1]="em";
+            $vet[2]="Video";
+            $t=implode(" ",$vet);
+            echo "<br/>$t<br/>";
+
             
 
         ?>
