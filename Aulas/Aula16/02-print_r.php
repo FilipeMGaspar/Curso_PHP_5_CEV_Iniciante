@@ -14,10 +14,13 @@
            $v[1]=8; 
            $v[2]=3;
            print_r($v);
+           echo"<br>";
+           var_dump($v);
 
            echo "<br><br>"; 
            $v2 = array(3,7,6,2,1,9);
             print_r($v2);
+            var_export($v2);
         ?>
         <!--
         <br>
