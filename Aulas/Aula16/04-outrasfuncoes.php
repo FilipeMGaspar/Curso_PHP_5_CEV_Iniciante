@@ -50,7 +50,7 @@
             $letra=chr(67);
             echo "A letra de código <span class='foco'>67</span> é a letra <span class='foco'>$letra</span><br/>";
 
-             //função ord
+            //função ord
             $ltr="A";
             $cod=ord($ltr);
             echo "O código da letra <span class='foco'>$ltr</span> tem o código <span class='foco'>$cod</span>";
