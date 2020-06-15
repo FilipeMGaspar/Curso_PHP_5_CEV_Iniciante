@@ -10,7 +10,9 @@
 <body>
     <div>
         <?php
-            
+            $p = "Leite";
+            $pr = 4.5;
+            echo "o $p custa R$ $pr";
         ?>
         <br>
         <br>
