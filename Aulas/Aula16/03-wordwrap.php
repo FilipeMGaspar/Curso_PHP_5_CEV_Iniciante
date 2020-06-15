@@ -10,11 +10,10 @@
 <body>
     <div>
         <?php
-            $t = "Aqui temos um texto gigante criado pelo PHP e vai mostrar como funciona a função WordWrap";
-
-            $r = wordwrap($t, 20, "<br>\n");
-
-            echo $t;
+             // funções para manipular strings função wordwrap()
+             $txt="Aqui temos um texto gigante criado pelo PHP e vai mostrar o funcionamento da função wordwrap";
+             $r= wordwrap($txt,20,"<br/>\n",false); // não permite que a linha seja cortada a meio da palavra
+            echo $r;
         ?>
         <!--
         <br>
