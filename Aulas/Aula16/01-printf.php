@@ -12,7 +12,11 @@
         <?php
             $p = "Leite";
             $pr = 4.5;
-            echo "o $p custa R$ ".number_format($pr, 2);
+            
+            //Modo antico com o .number_format()
+           // echo "o $p custa R$ ".number_format($pr, 2);
+
+           
         ?>
         <!--
         <br>
