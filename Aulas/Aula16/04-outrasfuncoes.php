@@ -46,6 +46,10 @@
             $t=implode(" ",$vet);
             echo "<br/>$t<br/>";
 
+            //função chr
+            $letra=chr(67);
+            echo "A letra de código <span class='foco'>67</span> é a letra <span class='foco'>$letra</span><br/>";
+
             
 
         ?>
