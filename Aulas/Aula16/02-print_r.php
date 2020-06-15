@@ -20,6 +20,7 @@
            echo "<br><br>"; 
            $v2 = array(3,7,6,2,1,9);
             print_r($v2);
+            echo"<br>";
             var_export($v2);
         ?>
         <!--
