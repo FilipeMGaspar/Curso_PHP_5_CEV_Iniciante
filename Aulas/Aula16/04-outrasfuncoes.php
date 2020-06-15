@@ -28,7 +28,18 @@
             //$cont=str_word_count($frase,2); // o 2 cria um vetor, mas as mantém com posição dentro da string
             echo "A frase $frase tem $cont palavras<br/>";
 
+            // função explode
+            $site="Curso em Video";
+            $vetor=explode(" ",$site);
+            print_r($vetor);
+            echo"<br/>";
+            
+            //str_split
+            $nome="Maria";
+            $v=str_split($nome);
+            print_r($v);
 
+            
 
         ?>
         <!--
