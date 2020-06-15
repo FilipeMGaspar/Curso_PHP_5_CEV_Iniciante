@@ -10,7 +10,17 @@
 <body>
     <div>
         <?php
-             
+            // função strlen
+            $txt="Curso Em Video";
+            $tam=strlen($txt);
+            echo "A string $txt tem $tam carateres<br/>";
+
+            // funcao trim
+            $nome ="   José da Silva";
+            $Nnome=trim($nome);
+            echo "$Nnome<br/>";
+
+            
         ?>
         <!--
         <br>
