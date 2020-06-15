@@ -10,22 +10,11 @@
 <body>
     <div>
         <?php
-            $p = "Leite";
-            $pr = 4.5;
             
-            //Modo antico com o .number_format()
-           // echo "o $p custa R$ ".number_format($pr, 2);
-
-           // utilizando a função printf
-           printf ("O %s custa R$ %.2f", $p, $pr);
-            
-
         ?>
-        <!--
         <br>
         <br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>
-        -->
     </div>
 </body>
 </html>
