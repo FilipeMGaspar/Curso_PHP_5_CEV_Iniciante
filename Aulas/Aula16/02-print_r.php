@@ -15,7 +15,7 @@
            $v[2]=3;
            print_r($v);
 
-           echo "<br>"; 
+           echo "<br><br>"; 
            $v2 = array(3,7,6,2,1,9);
             print_r($v2);
         ?>
