@@ -9,13 +9,12 @@
 </head>
 <body>
     <div>
-        <?php            
+        <?php           
 
             // funcao ucfist
             $nome="maria ines";
             $nome2=ucfirst($nome);
             echo "o seu nome com a primeira letra maiscula $nome2<br/>";            
-
         ?>
         <!--
         <br>
