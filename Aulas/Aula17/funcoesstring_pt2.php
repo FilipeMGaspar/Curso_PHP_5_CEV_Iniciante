@@ -65,7 +65,6 @@
             $novafr=str_replace("Matemática","PHP",$fr);
             echo"$novafr";
 
-            
         ?>
         <!--
         <br>
