@@ -62,7 +62,7 @@
 
             //funcao str_replace
             $fr="Gosto de estudar Matemática! Matemática é muito porreiro.";
-            $novafr=str_replace("Matemática","PHP",$fr);
+            $novafr=str_replace("Matemática","PHP",$fr);//str_ireplace no caso de ter sido escrito com letra minuscula
             echo"$novafr";
 
         ?>
