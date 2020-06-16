@@ -30,6 +30,13 @@
                // funcao strrev
                $nome6=strrev($nome);
                echo "o seu nome invertido $nome6<br/>";  
+
+                //funcao strpos
+                $frase="Estou a aprender PHP";
+                $pos=strpos($frase,"PHP");
+                echo "$frase <br/>na posição $pos<br/>";
+
+                
         ?>
         <!--
         <br>
