@@ -36,7 +36,9 @@
                 $pos=strpos($frase,"PHP");
                 echo "$frase <br/>na posição $pos<br/>";
 
-                
+                //funcao stripos
+                $p=stripos($frase,"php");
+                echo "$frase <br/>na posição $p<br/>";
         ?>
         <!--
         <br>

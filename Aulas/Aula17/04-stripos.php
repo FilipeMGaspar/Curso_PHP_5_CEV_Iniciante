@@ -11,9 +11,9 @@
     <div>
         <?php           
 
-            //funcao strpos
+            //funcao stripos
             $frase="Estou a aprender PHP";
-            $pos=strpos($frase,"PHP");
+            $pos=stripos($frase,"php");
             echo "$frase <br/>na posição $pos<br/>";           
         ?>
         <!--
