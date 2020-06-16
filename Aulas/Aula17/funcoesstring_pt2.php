@@ -22,6 +22,12 @@
               // funcao ucfist
               $nome4=ucfirst($nome);
               echo "o seu nome com a primeira letra maiscula $nome4<br/>";
+                
+              // funcao ucwords
+              $nome5=ucwords($nome);
+              echo "O seu nome com as iniciais em Maiuscula $nome5<br/>";
+
+              
         ?>
         <!--
         <br>
