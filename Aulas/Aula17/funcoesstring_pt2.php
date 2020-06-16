@@ -49,7 +49,7 @@
                 $site="Curso Em video";
                 $sub=substr($site,0,5); //inicia no inicio da string
                 //$sub=substr($site,6);// Inica do fim da string e completa até ao fim
-        echo "$sub<br/>";
+                echo "$sub<br/>";
         ?>
         <!--
         <br>
