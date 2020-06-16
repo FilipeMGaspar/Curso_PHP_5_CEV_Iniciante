@@ -24,8 +24,8 @@
               echo "o seu nome com a primeira letra maiscula $nome4<br/>";
                 
               // funcao ucwords
-              $nome5=ucwords($nome);
-              echo "O seu nome com as iniciais em Maiuscula $nome5<br/>";
+                $nome5=ucwords($nome);
+                echo "O seu nome com as iniciais em Maiuscula $nome5<br/>";
 
                // funcao strrev
                $nome6=strrev($nome);
@@ -59,6 +59,11 @@
                 //funcao str_repeat
                 $txt=str_repeat("Php ",5);
                 echo "$txt<br/>";
+
+                //funcao str_replace
+                $fr="Gosto de estudar Matemática! Matemática é muito porreiro.";
+                $novafr=str_replace("Matemática","PHP",$fr);
+                echo"$novafr";
         ?>
         <!--
         <br>
