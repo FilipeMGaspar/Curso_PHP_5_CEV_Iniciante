@@ -18,6 +18,10 @@
               // funcao strtoupper
               $nome3=strtoupper($nome);
               echo "O seu nome em maiscula $nome3<br/>";
+
+              // funcao ucfist
+              $nome4=ucfirst($nome);
+              echo "o seu nome com a primeira letra maiscula $nome4<br/>";
         ?>
         <!--
         <br>
