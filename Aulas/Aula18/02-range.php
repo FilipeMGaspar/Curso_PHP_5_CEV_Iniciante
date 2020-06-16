@@ -11,7 +11,7 @@
     <div>
         <pre>
             <?php
-                $c = range(5,20,2);//5 inicio , 20 final, 2 soma
+                $c = range(5,20,2);//5 inicio , 20 final, 2 somador
                 print_r($c);
             ?>
         </pre>
