@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="_css/estilo.css">
 </head>
 <body>
-    <div>
-        <pre>
+    <div>        
             <?php
                $cad = array("Nome"=>"ana",
                            "Idade" =>23,
                            "Peso"=>78.5);
-                $cad["Fuma"] = true;           
+                $cad["Fuma"] = true;   
+                
+                foreach ($cad as $campo => $valor){
+                    echo "O valor de $campo é $valor<br>";
+                }
             ?>
-          
-        </pre>
         <!--
         <br>
         <br>
