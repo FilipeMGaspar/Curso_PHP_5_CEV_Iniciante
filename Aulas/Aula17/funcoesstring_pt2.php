@@ -27,7 +27,9 @@
               $nome5=ucwords($nome);
               echo "O seu nome com as iniciais em Maiuscula $nome5<br/>";
 
-              
+               // funcao strrev
+               $nome6=strrev($nome);
+               echo "o seu nome invertido $nome6<br/>";  
         ?>
         <!--
         <br>
