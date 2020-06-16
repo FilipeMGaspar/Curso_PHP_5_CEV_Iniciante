@@ -51,7 +51,10 @@
                 //$sub=substr($site,6);// Inica do fim da string e completa até ao fim
                 echo "$sub<br/>";
 
-                
+                //funcao str_pad
+                $nn="Guanabara";
+                $novo=str_pad($nome,30,"",str_pad_right);//str_pad_center  //str_pad_left
+                echo "Meu professor $novo é genial<br/>";
         ?>
         <!--
         <br>
