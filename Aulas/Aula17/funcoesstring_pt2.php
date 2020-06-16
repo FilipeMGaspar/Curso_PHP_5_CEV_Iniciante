@@ -55,6 +55,10 @@
                 $nn="Guanabara";
                 $novo=str_pad($nome,30," ",str_pad_right);//str_pad_center  //str_pad_left
                 echo "Meu professor $novo é genial<br/>";
+
+                //funcao str_repeat
+                $txt=str_repeat("Php ",5);
+                echo "$txt<br/>";
         ?>
         <!--
         <br>
