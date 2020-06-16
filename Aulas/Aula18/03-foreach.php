@@ -10,13 +10,16 @@
 <body>
     <div>
         <pre>
+            <table border="1"><tr>
             <?php
                 $c = range(5,20,2);//5 inicio , 20 final, 2 somador
                 //print_r($c);
+                
                 foreach ($c as $valor){
-                    echo "$valor ";
+                    echo "<td>$valor ";
                 }
             ?>
+            </table>
         </pre>
         <!--
         <br>
