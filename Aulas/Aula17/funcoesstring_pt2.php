@@ -39,6 +39,11 @@
                 //funcao stripos
                 $p=stripos($frase,"php");
                 echo "$frase <br/>na posição $p<br/>";
+
+                //funcao substr_count
+                $f="Estou a aprender PHP no curso em video de PHP";
+                $cont=substr_count($f,"PHP");
+                echo "A palavra PHP surge $cont veses na frase <br/><span class='foco'>$f</span><br/>";
         ?>
         <!--
         <br>
