@@ -10,15 +10,14 @@
 <body>
     <div>
         <?php
-            // funcao_strtolower
-            $nome="Maria Ines";
-            $nome2 = strtolower($nome);
-            echo "O Seu nome em minusculas $nome2<br/>";
-
-            // funcao strtoupper
-            $nome3=strtoupper($nome);
-            echo "O seu nome em maiscula $nome3<br/>";
-            
+              // funcao_strtolower
+              $nome="Maria Ines";
+              $nome2 = strtolower($nome);
+              echo "O Seu nome em minusculas $nome2<br/>";
+  
+              // funcao strtoupper
+              $nome3=strtoupper($nome);
+              echo "O seu nome em maiscula $nome3<br/>";
         ?>
         <!--
         <br>
