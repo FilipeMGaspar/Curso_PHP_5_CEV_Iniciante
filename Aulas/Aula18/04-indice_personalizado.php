@@ -16,6 +16,8 @@
                 0=>8,
                 7=>7); 
                 
+                unset($v[0]);//destroi a posição 0 no vetor apagando da memória
+
                 print_r($v);
             ?>
           
