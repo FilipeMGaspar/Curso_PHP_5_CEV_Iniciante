@@ -11,7 +11,10 @@
     <div>
         <pre>
             <?php
-               
+               $cad = array("Nome"=>"ana",
+                           "Idade" =>23,
+                           "Peso"=>78.5);
+                $cad["Fuma"] = true;           
             ?>
           
         </pre>
