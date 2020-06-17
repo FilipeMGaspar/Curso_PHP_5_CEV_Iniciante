@@ -74,6 +74,19 @@
                 
                 echo "<br>";
 
+                $vet = array(
+                    2=> "A",
+                    5=> "J",
+                    0=>"M",
+                    3=> "X",
+                    4=>"k");
+          
+                 print_r($vet);
+                //Função ksort() ordena os indices do vetor por ordem crescente
+                ksort($vet);
+                echo "<br>";
+                print_r($vet);  
+
             ?>  
         </pre>
         <!--
