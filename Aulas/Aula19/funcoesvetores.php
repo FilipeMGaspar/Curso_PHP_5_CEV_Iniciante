@@ -12,11 +12,16 @@
         <pre>        
             <?php
                
+                echo "Função print_r()<br>";
                //Função print_r 
                $v = array("a","j", "m","x","k");
-               print_r($v) 
+               print_r($v); 
+               
+               echo "<br>Função var_dump()<br>";
+               //função var_dump
+               var_dump($v); 
 
-                
+
             ?>
         </pre>
         <!--
