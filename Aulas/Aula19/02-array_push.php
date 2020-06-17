@@ -12,14 +12,17 @@
         <?php
             
            $v = array("a","j", "m","x","k");
-           print_r($v) 
+           print_r($v); 
              //função array_push() adiciona elemento no fim do vetor
              array_push($v,"o"); //é o mesmo que $v[] = 7; 
              $v[]= "XP";
+             echo "<br><br>";
+             print_r($v);
 
              //função array_pop() elimina o ultimo elemento do vetor
              array_pop($v); //unset($v);
 
+             echo "<br><br>";
              print_r($v);
         ?>
         <!--
