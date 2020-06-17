@@ -59,7 +59,8 @@
                rsort($v);
                print_r($v);
 
-
+               // asort() mantém a associação do indices 
+                
 
             ?>  
         </pre>
