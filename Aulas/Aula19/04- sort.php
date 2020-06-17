@@ -19,7 +19,7 @@
              echo "<br><br>";   
 
              //Função rsort() ordena o vetor por ordem decrescente
-             rsort($n)
+             rsort($n);
              print_r($n);
         
         ?>
