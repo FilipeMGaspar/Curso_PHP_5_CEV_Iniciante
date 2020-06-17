@@ -10,7 +10,7 @@
 <body>
     <div>
         <?php
-             //Função asort() ordena o vetor por ordem crescente
+             //Função asort() ordena o vetor por ordem crescente mantendo a associação os indices
              $n = array(3,5,8,2);
              print_r($n);
              asort($n);
