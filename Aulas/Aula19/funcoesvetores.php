@@ -53,6 +53,12 @@
                //Função sort() ordena o vetor por ordem crescente
                sort($v);
                print_r($v);
+               
+               //Função rsort() ordena o vetor por ordem decrescente
+               echo "<br>";
+               rsort($v);
+               print_r($v);
+
 
 
             ?>  

@@ -10,11 +10,16 @@
 <body>
     <div>
         <?php
-             //Função sort() ordena o vetor
+             //Função sort() ordena o vetor por ordem crescente
              $n = array(3,5,8,2);
              print_r($n);
              sort($n);
              echo "<br><br>";
+             print_r($n);
+             echo "<br><br>";   
+
+             //Função rsort() ordena o vetor por ordem decrescente
+             rsort($n)
              print_r($n);
         
         ?>
