@@ -26,7 +26,10 @@
                $tot = count($v); 
                echo "O vetor tem ". count($v) . "elementos";
 
+               //função array_push() adiciona elemento no fim do vetor
+               array_push($v,"o"); //é o mesmo que $v[] = 7; 
 
+               //
 
             ?>
         </pre>
