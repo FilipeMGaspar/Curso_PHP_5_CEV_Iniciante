@@ -29,20 +29,20 @@
                //função array_push() adiciona elemento no fim do vetor
                array_push($v,"o"); //é o mesmo que $v[] = 7; 
                $v[]= "XP";
-               echo "<br><br>";
+               echo "<br>";
                print_r($v);
 
                //função array_pop() elimina o ultimo elemento do vetor
                array_pop($v); //unset($v);              « 
-               echo "<br><br>";
+               echo "<br>";
                print_r($v);
                
-               echo "<br><br>";
+               echo "<br>";
 
                //Função  array_unshift() adiciona um elemento no inicio do vetor
                array_unshift($v, "z");
                print_r($v); 
-               echo "<br><br>";
+               echo "<br>";
               
                 //Função  array_shift() apaga o elemento do inicio do vetor
                array_shift($v);
@@ -59,8 +59,20 @@
                rsort($v);
                print_r($v);
 
-               // asort() mantém a associação do indices 
+               //Função asort() ordena o vetor por ordem crescente mantendo a associação os indices
+                $n = array(3,5,8,2);
+                print_r($n);
+                asort($n);
+                echo "<br>";
+                print_r($n);
+             
+                echo "<br>";   
+
+                 //Função arsort() ordena o vetor por ordem decrescente mantendo a associação os indices
+                arsort($n);
+                print_r($n);
                 
+                echo "<br>";
 
             ?>  
         </pre>
