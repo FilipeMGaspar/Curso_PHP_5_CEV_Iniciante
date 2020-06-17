@@ -43,11 +43,13 @@
                array_unshift($v, "z");
                print_r($v); 
                echo "<br><br>";
+              
+                //Função  array_shift() apaga o elemento do inicio do vetor
                array_shift($v);
                print_r($v);
 
                echo "<br>";
-
+            
 
             ?>
         </pre>
