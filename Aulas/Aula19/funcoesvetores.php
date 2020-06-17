@@ -37,6 +37,13 @@
                echo "<br><br>";
                print_r($v);
                
+               echo "<br><br>";
+
+               //Função  array_unshift() adiciona um elemento no inicio do vetor
+               array_unshift($v, "z");
+
+               
+
 
             ?>
         </pre>
