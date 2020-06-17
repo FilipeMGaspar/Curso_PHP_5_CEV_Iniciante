@@ -15,8 +15,7 @@
              print_r($n);
              asort($n);
              echo "<br><br>";
-             print_r($n);
-           
+             print_r($n);           
         
         ?>
         <!--
