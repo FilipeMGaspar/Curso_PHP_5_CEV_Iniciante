@@ -50,11 +50,11 @@
 
                echo "<br>";
                
-               //Função sort() ordena o vetor
-               $n = array(3,5,8,2);
-               sort($n);
-               print_r($n);
-               
+               //Função sort() ordena o vetor por ordem crescente
+               sort($v);
+               print_r($v);
+
+
             ?>  
         </pre>
         <!--
