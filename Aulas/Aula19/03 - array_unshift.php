@@ -13,7 +13,7 @@
             
            $v = array("a","j", "m","x","k");
            print_r($v); 
-             
+             echo "<br><br>";
            //Função  array_unshift() adiciona um elemento no inicio do vetor
              array_unshift($v, "z");
              print_r($v); 
