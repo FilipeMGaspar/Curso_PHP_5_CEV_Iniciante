@@ -11,11 +11,14 @@
     <div>
         <?php
             
+           $v = array("a","j", "m","x","k");
+           print_r($v) 
         ?>
-        
+        <!--
         <br>
         <br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>
+        -->
     </div>
 </body>
 </html>
