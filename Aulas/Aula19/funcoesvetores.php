@@ -49,7 +49,12 @@
                print_r($v);
 
                echo "<br>";
-
+               
+               //Função sort() ordena o vetor
+               $n = array(3,5,8,2);
+               sort($n);
+               print_r($n);
+               
             ?>  
         </pre>
         <!--
