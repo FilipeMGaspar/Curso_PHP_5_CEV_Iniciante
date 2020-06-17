@@ -20,6 +20,12 @@
                echo "<br>Função var_dump()<br>";
                //função var_dump
                var_dump($v); 
+               
+               echo "<br>Função count()<br>";
+               //funçao count()
+               $tot = count($v); 
+               echo "O vetor tem ". count($v) . "elementos";
+
 
 
             ?>
