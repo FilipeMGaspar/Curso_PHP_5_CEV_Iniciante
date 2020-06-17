@@ -87,6 +87,11 @@
                 echo "<br>";
                 print_r($vet);  
 
+                echo "<br><br>";
+                //Função krsort() ordena os indices do vetor por ordem decrescente    
+                krsort($vet);
+                print_r($vet); 
+
             ?>  
         </pre>
         <!--
