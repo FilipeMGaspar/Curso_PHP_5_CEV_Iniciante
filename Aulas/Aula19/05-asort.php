@@ -15,7 +15,13 @@
              print_r($n);
              asort($n);
              echo "<br><br>";
-             print_r($n);           
+             print_r($n);
+             
+             echo "<br><br>";   
+
+             //Função arsort() ordena o vetor por ordem decrescente mantendo a associação os indices
+             arsort($n);
+             print_r($n);
         
         ?>
         <!--
