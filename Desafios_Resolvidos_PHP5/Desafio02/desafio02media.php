@@ -15,7 +15,7 @@
                 $urlv = $v;// $urlv = num1; num2 e num3
           
                 $$var = isset($_GET[$urlv]) ? $_GET[$urlv] : 0 ;//para o caso do valor não ser definido vai ser 0 o através de variaveis de variaveis a variavel $$var vai receber o valor nas caixas de texto num1, num2 e num3
-                echo  $$var." ;";
+                echo  " ".$$var." ; ";
                 $soma += $$var; 
             }
             
