@@ -52,8 +52,9 @@ span.foco {
 }
 
 .botao {
-	background-color: rgb(13, 13, 107);
+	background-color: rgba(13, 13, 107, 0.664);
 	color: white;
-	padding: 8px;
-	box-shadow: 2px 2px 1px #575555;
+	padding: 10px;
+    box-shadow: 2px 2px 1px #575555;
+    border-radius: 10px;
 }
