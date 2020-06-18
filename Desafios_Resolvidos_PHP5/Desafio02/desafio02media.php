@@ -15,9 +15,10 @@
           
                 $$var = isset($_GET[$urlv]) ? $_GET[$urlv] : 0 ;//para o caso do valor não ser definido vai ser 0 o através de variaveis de variaveis a variavel $$var vai receber o valor nas caixas de texto num1, num2 e num3
                 
+                $soma += $$var; 
                 var_dump($$var);
-                echo "AKI <br>";
             }
+            echo "<br><br>Soma = $soma";
         ?>  
         <br><br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>  
