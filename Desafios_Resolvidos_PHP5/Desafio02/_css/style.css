@@ -55,7 +55,7 @@ input{
     width: 80px;
 }
 
-input.botao {
+.botao {
 	background-color: rgba(13, 13, 107, 0.664);
 	color: white;
 	padding: 10px;
