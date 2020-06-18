@@ -12,8 +12,8 @@
             for ($i=1; $i<=3; $i++){
                 $v = "num".$i; // $v = num1; num2 e num3
                 $urlv = $v;// $urlv = num1; num2 e num3
-                //$$var = isset($_GET["$urlv"]) ? ($_GET["$urlv"] : 0;  // $$v variavel da variavel $v com nome $num1; $num2 e $num3 
-                $$var = $_GET[$urlv];
+          
+                $$var = isset($_GET[$urlv]) ? $_GET[$urlv] : 0 ;//para o caso do valor não ser definido vai ser 0 o através de variaveis de variaveis a variavel $$var vai receber o valor nas caixas de texto num1, num2 e num3
                 
                 var_dump($$var);
                 echo "AKI <br>";
