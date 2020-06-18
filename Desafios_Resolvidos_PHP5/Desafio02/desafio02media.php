@@ -11,11 +11,13 @@
         <?php
             for ($i=1; $i<=3; $i++){
                 $v = "num".$i;
-                //echo "$v<br>";
                 $$var = $v;
                 var_dump($$var);
-                echo "aki ..: $<br>";
             }
+
+            //for ($c=1; $c<=3; $c++){
+               
+            //}
         ?>  
         <br><br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>  
