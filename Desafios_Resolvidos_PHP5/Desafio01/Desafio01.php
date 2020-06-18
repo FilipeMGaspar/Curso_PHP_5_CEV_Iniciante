@@ -6,6 +6,8 @@
     <title>Desafios para iniciantes em PHP5.</title>
 </head>
 <body>
-    
+    <?php
+        echo "Olá Mundo!";
+    ?>
 </body>
 </html>
