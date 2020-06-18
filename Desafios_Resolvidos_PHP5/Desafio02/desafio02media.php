@@ -11,7 +11,10 @@
         <?php
             for ($i=1; $i<=3; $i++){
                 $v = "num".$i;
-                echo "$v ";
+                //echo "$v<br>";
+                $$var = $v;
+                var_dump($$var);
+                echo "aki ..: $<br>";
             }
         ?>  
         <br><br>
