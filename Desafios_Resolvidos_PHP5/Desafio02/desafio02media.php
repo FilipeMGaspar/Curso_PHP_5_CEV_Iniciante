@@ -10,14 +10,14 @@
     <div>
         <?php
             for ($i=1; $i<=3; $i++){
-                $v = "num".$i;
-                $$var = $v;
+                $v = "num".$i; // $v = num1; num2 e num3
+                $urlv = $v;// $urlv = num1; num2 e num3
+                //$$var = isset($_GET["$urlv"]) ? ($_GET["$urlv"] : 0;  // $$v variavel da variavel $v com nome $num1; $num2 e $num3 
+                $$var = $_GET[$urlv];
+                
                 var_dump($$var);
+                echo "AKI <br>";
             }
-
-            //for ($c=1; $c<=3; $c++){
-               
-            //}
         ?>  
         <br><br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>  
