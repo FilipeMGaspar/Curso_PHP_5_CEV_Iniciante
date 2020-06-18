@@ -9,9 +9,12 @@
 <body>
     <div>
            <form method="GET" action="desafio02media.php">
-                <input type="number" name="num1">
-                
-               <br><input type="submit" class="botao" value="Calcular Média">
+                <?php
+                    for($i=1; $i<=3; $i++){
+                        echo "Valor $i: <input type='number' name='num$i'><br><br>";
+                    }
+                ?>
+                <br><input type="submit" class="botao" value="Calcular Média">
            </form> 
     </div>
 </body>
