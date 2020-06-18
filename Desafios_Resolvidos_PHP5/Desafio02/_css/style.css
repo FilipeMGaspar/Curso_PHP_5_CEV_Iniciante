@@ -51,3 +51,9 @@ span.foco {
     color: #640409;
 }
 
+.botao {
+	background-color: rgb(13, 13, 107);
+	color: white;
+	padding: 8px;
+	box-shadow: 2px 2px 1px #575555;
+}
