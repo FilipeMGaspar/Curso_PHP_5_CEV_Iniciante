@@ -12,7 +12,7 @@
             $v = isset($_GET["val"]) ? $_GET["val"] : 0;  
 
             if ($v==0){
-                $v = "Valor não foi informado.";
+                $v = " não foi informado.";
                 $resp = ", impossível de verificar.";
             }
             echo "<h2>O valor $v</h2>";
