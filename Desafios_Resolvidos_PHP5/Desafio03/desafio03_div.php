@@ -14,14 +14,14 @@
             echo "<h2>O valor $v</h2>";
 
             if ($v%2 == 0){
-                $resp = " por 2";
+                $resp = " pelo 2";
             }
             if ($v%5 == 0){
                 echo "<br>aki<br>";
-                $resp = $resp.", por 5";
+                $resp = $resp.", pelo 5";
             }
             if($v%10 == 0){
-                $resp = $resp." e por 10";
+                $resp = $resp." e pelo 10.";
             }/*else{
                 $resp += " por nenhum dos três.";
             }*/
