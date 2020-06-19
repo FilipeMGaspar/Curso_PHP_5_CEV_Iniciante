@@ -9,8 +9,12 @@
 <body>
     <div>
         <?php
-            $v = isset($_GET["val"]) ? $_GET["val"] : "não informado ";  
+            $v = isset($_GET["val"]) ? $_GET["val"] : 0;  
 
+            if ($v==0){
+                $v = "Valor não foi informado.";
+                $resp = ", impossível de verificar.";
+            }
             echo "<h2>O valor $v</h2>";
 
             if ($v%2 == 0){
