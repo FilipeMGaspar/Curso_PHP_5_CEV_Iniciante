@@ -21,7 +21,7 @@
                 $resp = $resp.", por 5";
             }
             if($v%10 == 0){
-                $resp = " e por 10";
+                $resp = $resp." e por 10";
             }/*else{
                 $resp += " por nenhum dos três.";
             }*/
