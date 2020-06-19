@@ -15,13 +15,13 @@
             if ($v%2 == 0){
                 $resp = " por 2";
             }elseif ($v%5 == 0){
-                $resp = ", por 5";
+                $resp += ", por 5";
             }elseif($v%10 == 0){
-                $resp = " e por 10";
+                $resp += " e por 10";
             }else{
                 $resp = " por nenhum dos três.";
             }
-            echo "";
+            echo "É divisivel: $resp";
 
         ?>
         <br><br>
