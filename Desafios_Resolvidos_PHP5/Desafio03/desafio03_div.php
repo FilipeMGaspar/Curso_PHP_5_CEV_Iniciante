@@ -8,7 +8,11 @@
 </head>
 <body>
     <div>
-            
+        <?php
+            $v = isset($_GET[]) ? $_GET[] : "Valor não informado ";  
+        ?>
+        <br><br>
+        <a href="javascript:history.go(-1)" class="botao">Voltar</a> 
     </div>
 </body>
 </html>
