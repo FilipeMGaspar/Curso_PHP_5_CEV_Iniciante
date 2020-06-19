@@ -12,6 +12,7 @@
             $v = isset($_GET["val"]) ? $_GET["val"] : "não informado ";  
 
             echo "<h2>O valor $v</h2>";
+            
         ?>
         <br><br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a> 
