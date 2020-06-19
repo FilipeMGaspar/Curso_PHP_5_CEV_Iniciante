@@ -25,7 +25,7 @@
             if(($v%2 !=0) && ($v%5!=0) && ($v%10!=0)){
                 $resp = " não divide pelo 2, nem pelo 5 e nem pelo 10.";
             }
-            echo "É divisivel: $resp";
+            echo "É divisivel $resp";
 
         ?>
         <br><br>
