@@ -19,7 +19,7 @@
             }elseif($v%10 == 0){
                 $resp += " e por 10";
             }else{
-                $resp = " por nenhum dos três.";
+                $resp += " por nenhum dos três.";
             }
             echo "É divisivel: $resp";
 
