@@ -58,3 +58,9 @@ span.foco {
     box-shadow: 2px 2px 1px #575555;
     border-radius: 10px;
 }
+
+#cxval{
+    width: 85px;
+    margin-left: 5px;
+    margin-right: 15px;
+}
