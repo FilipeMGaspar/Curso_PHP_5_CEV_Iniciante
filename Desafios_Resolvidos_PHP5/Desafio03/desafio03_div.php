@@ -9,14 +9,16 @@
 <body>
     <div>
         <?php
-            $v = isset($_GET["val"]) ? $_GET["val"] : 0;  
+            $v = isset($_GET["val"]) ? $_GET["val"] : - 1;  
 
-            if ($v==0){
+            if ($v == -1){
                 $v = " não foi informado.";
                 $resp = ", impossível de verificar.";
             }
             echo "<h2>O valor $v</h2>";
 
+            echo "$resp";
+            
             if ($v%2 == 0){
                 $resp = ", pelo 2";
             }
