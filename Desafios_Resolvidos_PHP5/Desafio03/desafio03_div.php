@@ -9,12 +9,13 @@
 <body>
     <div>
         <?php
-            $v = isset($_GET["val"]) ? $_GET["val"] : - 1;  
+            $v = isset($_GET["val"]) ? $_GET["val"] : "nf";  
 
-            if ($v == -1){
+            if ($v == "nf"){
                  echo "<h2>O valor não foi informado.</h2>";
-                 echo "<p>É impossível de verificar a divisão.<p>";
-            break;
+                 echo "<br><p>É impossível de verificar a divisão.<p><br>";
+                 echo "<br><a href='javascript:history.go(-1)' class='botao'>Voltar</a>";
+               break;
             }
             echo "<h2>O valor $v</h2>";
     
