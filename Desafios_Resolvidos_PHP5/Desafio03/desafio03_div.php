@@ -12,16 +12,17 @@
             $v = isset($_GET["val"]) ? $_GET["val"] : "não informado ";  
 
             echo "<h2>O valor $v</h2>";
-            
+
             if ($v%2 == 0){
                 $resp = " por 2";
             }
             if ($v%5 == 0){
                 echo "<br>aki<br>";
                 $resp = $resp.", por 5";
-            }/*elseif($v%10 == 0){
+            }
+            if($v%10 == 0){
                 $resp = " e por 10";
-            }else{
+            }/*else{
                 $resp += " por nenhum dos três.";
             }*/
             echo "É divisivel: $resp";
