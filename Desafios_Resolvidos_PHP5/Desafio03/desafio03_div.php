@@ -12,13 +12,12 @@
             $v = isset($_GET["val"]) ? $_GET["val"] : - 1;  
 
             if ($v == -1){
-                $v = " não foi informado.";
-                $resp = ", impossível de verificar.";
+                $v = "O valor não foi informado.";
+                 echo "É impossível de verificar a divisão.";
+            break;
             }
             echo "<h2>O valor $v</h2>";
-
-            echo "$resp";
-            echo "$v";
+    
             if ($v%2 == 0){
                 $resp = ", pelo 2";
             }
