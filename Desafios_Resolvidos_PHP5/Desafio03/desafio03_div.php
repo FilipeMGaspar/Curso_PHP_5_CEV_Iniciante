@@ -9,7 +9,9 @@
 <body>
     <div>
         <?php
-            $v = isset($_GET[]) ? $_GET[] : "Valor não informado ";  
+            $v = isset($_GET["val"]) ? $_GET["val"] : "não informado ";  
+
+            echo "<h2>O valor $v</h2>";
         ?>
         <br><br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a> 
