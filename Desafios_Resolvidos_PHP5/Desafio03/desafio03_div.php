@@ -12,7 +12,17 @@
             $v = isset($_GET["val"]) ? $_GET["val"] : "não informado ";  
 
             echo "<h2>O valor $v</h2>";
-            
+            if ($v%2 == 0){
+                $resp = " por 2";
+            }elseif ($v%5 == 0){
+                $resp = ", por 5";
+            }elseif($v%10 == 0){
+                $resp = " e por 10";
+            }else{
+                $resp = " por nenhum dos três.";
+            }
+            echo "";
+
         ?>
         <br><br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a> 
