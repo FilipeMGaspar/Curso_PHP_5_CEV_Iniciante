@@ -17,14 +17,14 @@
                 $resp = " pelo 2";
             }
             if ($v%5 == 0){
-                echo "<br>aki<br>";
                 $resp = $resp.", pelo 5";
             }
             if($v%10 == 0){
                 $resp = $resp." e pelo 10.";
-            }/*else{
-                $resp += " por nenhum dos três.";
-            }*/
+            }
+            if(($v%2 !=0) && ($v%5!=0) && ($v%10!=0)){
+                $resp = " por nenhum dos três.";
+            }
             echo "É divisivel: $resp";
 
         ?>
