@@ -18,7 +18,7 @@
             echo "<h2>O valor $v</h2>";
 
             echo "$resp";
-            
+            echo "$v";
             if ($v%2 == 0){
                 $resp = ", pelo 2";
             }
