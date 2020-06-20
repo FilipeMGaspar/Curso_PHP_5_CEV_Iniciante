@@ -8,9 +8,8 @@
 </head>
 <body>
     <div>
-            
-    </div>
     <br><br>
-    <a href="javascript:history.go(-1)" class="botao">Voltar</a> 
+    <a href="javascript:history.go(-1)" class="botao">Voltar</a>   
+    </div>
 </body>
 </html>
