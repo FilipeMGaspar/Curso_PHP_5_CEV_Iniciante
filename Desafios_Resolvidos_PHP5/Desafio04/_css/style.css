@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: rgba(127, 135, 153, 0.37);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+div:before{
+    content: " Desafios para iniciantes em PHP5 - by Filipe Gaspar ";
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color:  rgb(13, 13, 107);
+    padding: 5px;
+    display: block;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    width: 550px;
+}
+
+div {
+    background-color: rgba(255,255,255,.8);
+    margin: 100px auto 100px auto;
+    padding: 10px;
+    width: 540px;
+    min-height:300px;
+    box-shadow: 3px 3px 10px  rgb(91, 91, 97);
+}
+
+a {
+    color: rgb(13, 13, 107);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span.foco {
+    font-weight: bold;
+    color: #640409;
+}
+
+.botao {
+	background-color: rgba(13, 13, 107, 0.664);
+	color: white;
+	padding: 10px;
+    box-shadow: 2px 2px 1px #575555;
+    border-radius: 10px;
+}
+
+#cxval{
+    width: 85px;
+    margin-left: 5px;
+    margin-right: 15px;
+}
