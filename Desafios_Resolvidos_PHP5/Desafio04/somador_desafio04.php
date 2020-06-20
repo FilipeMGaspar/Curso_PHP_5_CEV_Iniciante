@@ -23,7 +23,9 @@
                     $soma += 5;
                     echo "<br><br><h3>Valor da soma condicional <span class='foco'>$soma</span></h3>";
                 }else{
-                    
+                    echo "<br>O resultado da soma é <span class='foco'>$soma</span> que é menor que 20.<br> Por isso vamos subtrair 3."; 
+                    $soma -= 3;
+                    echo "<br><br><h3>Valor da subtração condicional <span class='foco'>$soma</span></h3>";
                 }
             }    
         ?>
