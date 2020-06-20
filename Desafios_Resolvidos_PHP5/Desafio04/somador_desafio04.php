@@ -9,11 +9,14 @@
 <body>
     <div>
         <?php
-            
+            $val1 = isset($_GET["tCxvalor1"]) ? $_GET["tCxvalor1"] : "nd";
+            $val2 = isset($_GET["tCxvalor2"]) ? $_GET["tCxvalor2"] : "nd";
+
+            echo "<h2>A soma de $val1 com $val2</h2>";
         ?>
 
-    <br><br>
-    <a href="javascript:history.go(-1)" class="botao">Voltar</a>   
+        <br><br>
+        <a href="javascript:history.go(-1)" class="botao">Voltar</a>   
     </div>
 </body>
 </html>
