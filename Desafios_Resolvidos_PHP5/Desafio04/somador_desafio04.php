@@ -16,7 +16,10 @@
                 echo "<h2>Impossivel Realizar a soma!<h2>";
                 echo "<br><h3>Os valores não foram definidos!</h3>";
             }else{
-                echo "<h2>A soma de $val1 com $val2</h2>";
+                $soma = $val1 + $val2;
+                echo "<h2>A soma de <span class='foco'>$val1</span> com <span class='foco'>$val2</span> tem o valor de <span class='foco'>$soma</span></h2>";
+                
+
             }    
         ?>
 
