@@ -12,7 +12,11 @@
             $val1 = isset($_GET["tCxvalor1"]) ? $_GET["tCxvalor1"] : "nd";
             $val2 = isset($_GET["tCxvalor2"]) ? $_GET["tCxvalor2"] : "nd";
 
-            echo "<h2>A soma de $val1 com $val2</h2>";
+            if (($val=="nd") || ($val2=="nd")){
+                echo "Impossivel Realizar a soma!";
+            }else{
+                echo "<h2>A soma de $val1 com $val2</h2>";
+            }    
         ?>
 
         <br><br>
