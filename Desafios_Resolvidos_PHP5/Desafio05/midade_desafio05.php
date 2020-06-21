@@ -13,7 +13,7 @@
                 
                 echo "aki!";
                 if($i != "nd"){
-                    echo "Tem anos de idade.";
+                    echo "Tem $i anos de idade.";
                 }else{
                     echo "<script> alert('Erro!!!!!')</script>";
                 }
