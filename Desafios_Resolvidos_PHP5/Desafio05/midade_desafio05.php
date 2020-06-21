@@ -9,7 +9,7 @@
 <body>
     <div>
            <?php
-                $i = isset($_GET["idade"]) ? $_GET["idade"]) : "nd";
+                $i = isset($_GET["idade"]) ? $_GET["idade"] : "nd";
                 
                 echo "aki!";
                 if($i != "nd"){
