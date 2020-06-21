@@ -13,6 +13,11 @@
                 
                 if(($i != "nd") && $i!=""){
                     echo "Tem $i anos de idade.";
+                    if($i <18){
+                        echo "<br> <h2>É Menor de Idade!</h2>";
+                    }else{
+                        
+                    }
                 }else{
                     echo "<script> alert('Erro!! A Idade não foi definida.')</script>";
                 }
