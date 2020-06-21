@@ -18,8 +18,9 @@
                     echo "<script> alert('Erro!!!!!')</script>";
                 }
            ?> 
+           <br><br>
+          <a href="javascript:history.go(-1)" class="botao">Voltar</a> 
     </div>
-    <br><br>
-        <a href="javascript:history.go(-1)" class="botao">Voltar</a> 
+    
 </body>
 </html>
