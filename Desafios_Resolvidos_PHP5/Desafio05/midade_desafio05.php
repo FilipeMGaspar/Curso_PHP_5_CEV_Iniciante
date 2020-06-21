@@ -11,10 +11,11 @@
            <?php
                 $i = isset($_GET["idade"]) ? $_GET["idade"]) : "nd";
                 
+                echo "aki!";
                 if($i != "nd"){
-                    echo "Tem $i anos de idade.";
+                    echo "Tem anos de idade.";
                 }else{
-                    echo "<script>alert ('Erro!!!!!')</script>";
+                    echo "<script> alert('Erro!!!!!')</script>";
                 }
            ?> 
     </div>
