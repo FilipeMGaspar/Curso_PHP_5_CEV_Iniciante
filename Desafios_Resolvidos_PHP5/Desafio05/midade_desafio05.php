@@ -12,11 +12,11 @@
                 $i = isset($_GET["idade"]) ? $_GET["idade"] : "nd";
                 
                 if(($i != "nd") && $i!=""){
-                    echo "Tem $i anos de idade.";
+                    echo "<h2>Tem $i anos de idade.</h2><br>";
                     if($i <18){
-                        echo "<br> <h2>É Menor de Idade!</h2>";
+                        echo "<br> <h3>É Menor de Idade!</h3>";
                     }else{
-                        
+                        echo "<br> <h3>É Maior de Idade!</h3>"; 
                     }
                 }else{
                     echo "<script> alert('Erro!! A Idade não foi definida.')</script>";
