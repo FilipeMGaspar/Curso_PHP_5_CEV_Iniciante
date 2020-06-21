@@ -14,7 +14,7 @@
                 if($i != "nd"){
                     echo "Tem $i anos de idade.";
                 }else{
-                    echo "<script>alert ('Erro!!!!!')</script>"
+                    echo "<script>alert ('Erro!!!!!')</script>";
                 }
            ?> 
     </div>
