@@ -9,6 +9,7 @@
 <body>
     <div>
            <?php
+                $i = isset($_GET["idade"]) ? $_GET["idade"]) : "nd";
                 
            ?> 
     </div>
