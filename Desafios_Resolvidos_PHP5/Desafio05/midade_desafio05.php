@@ -10,7 +10,7 @@
     <div>
            <?php
                 $i = isset($_GET["idade"]) ? $_GET["idade"] : "nd";
-                 var_dump($i);
+                
                 if(($i != "nd") && $i!=""){
                     echo "Tem $i anos de idade.";
                 }else{
