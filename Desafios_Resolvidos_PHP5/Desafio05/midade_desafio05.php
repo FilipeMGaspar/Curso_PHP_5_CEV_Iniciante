@@ -10,12 +10,11 @@
     <div>
            <?php
                 $i = isset($_GET["idade"]) ? $_GET["idade"] : "nd";
-                
-                echo "aki!";
-                if($i != "nd"){
+                 var_dump($i);
+                if(($i != "nd") && $i!=""){
                     echo "Tem $i anos de idade.";
                 }else{
-                    echo "<script> alert('Erro!!!!!')</script>";
+                    echo "<script> alert('Erro!! A Idade não foi definida.')</script>";
                 }
            ?> 
            <br><br>
