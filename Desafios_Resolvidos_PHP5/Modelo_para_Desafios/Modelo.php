@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafios para iniciantes em PHP5.</title>
+    <title>Desafio06 - Maior e o menor de 3 valores. </title>
     <link rel="stylesheet" href="_css/style.css">
 </head>
 <body>
