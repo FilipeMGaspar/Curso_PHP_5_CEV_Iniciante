@@ -15,6 +15,8 @@
 
             if (($num1=="nd") || ($num2=="nd") || ($num3=="nd")){
                 echo "<h2>Os números a comparar, não foram definidos!</h2>";    
+            }else{
+                echo "<h2>Entre os números: $num1, $num2 e $num3</h2>";
             }
         ?>        
         <br><br>
