@@ -26,7 +26,10 @@
                     $maior =$num3;
                 }
 
+                
+
                 echo "<br><h3>O Maior é o número <span class='foco'>$maior</span></h3>";
+                echo "<br><br><h3>O Menor é o número <span class='foco'>$menor</span></h3>"
             }
         ?>        
         <br><br>
