@@ -16,10 +16,11 @@
             if (($num1=="nd") || ($num2=="nd") || ($num3=="nd")){
                 echo "<h2>Os números a comparar, não foram definidos!</h2>";    
             }else{
-                echo "<h2>Entre os números: $num1, $num2 e $num3</h2>";
+                echo "<h2>Entre os números: <span class='foco'>$num1</span>, <span class='foco'>$num2</span> e <span class='foco'>$num3</span></h2>";
                 if (($num1>$num2) && ($num1>$num3)){
                     $maior = $num1
                 }
+                echo "O Maior é <span class='foco'>$maior</span>";
             }
         ?>        
         <br><br>
