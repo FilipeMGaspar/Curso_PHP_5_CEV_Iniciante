@@ -17,6 +17,9 @@
                 echo "<h2>Os números a comparar, não foram definidos!</h2>";    
             }else{
                 echo "<h2>Entre os números: $num1, $num2 e $num3</h2>";
+                if (($num1>$num2) && ($num1>$num3)){
+                    $maior = $num1
+                }
             }
         ?>        
         <br><br>
