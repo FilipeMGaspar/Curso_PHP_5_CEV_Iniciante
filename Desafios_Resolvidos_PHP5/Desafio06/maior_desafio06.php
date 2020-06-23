@@ -9,7 +9,7 @@
 <body>
     <div>
         <?php
-
+            $num1 = isset($_GET["num1"]) ? $_GET["num1"] : "nd"
         ?>        
         <br><br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>     
