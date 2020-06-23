@@ -10,6 +10,7 @@
     <div>
         <?php
             $num1 = isset($_GET["num1"]) ? $_GET["num1"] : "nd"
+            $num2 = isset($_GET["num2"]) ? $_GET["num2"] : "nd"
         ?>        
         <br><br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>     
