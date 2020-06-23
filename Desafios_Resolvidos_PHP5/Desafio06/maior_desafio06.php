@@ -21,7 +21,7 @@
                 if (($num1>$num2) && ($num1>$num3)){
                     $maior = $num1;
                 }
-                echo "<h3>O Maior é o número<span class='foco'>$maior</span></h3>";
+                echo "<h3>O Maior é o número <span class='foco'>$maior</span></h3>";
             }
         ?>        
         <br><br>
