@@ -28,6 +28,8 @@
 
                 if(($num1<$num2) && ($num1<$num3)){
                     $menor = $num1;
+                }elseif (($num2<$num1) && ($num2<$num3)){
+                    $menor = $num2;
                 }
 
                 echo "<br><h3>O <span class='foco'>maior</span> é o número <span class='foco'>$maior</span></h3>";
