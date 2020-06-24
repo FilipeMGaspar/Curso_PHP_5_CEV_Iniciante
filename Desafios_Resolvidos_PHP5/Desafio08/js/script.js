@@ -1,5 +1,6 @@
 let cxVal = document.querySelector('input#cxVal')
 let selNumadd = document.querySelector('select#selNumadd')
+let vetvalores = []
 
 document.onload = iniciar()   
 
@@ -19,8 +20,14 @@ function adicionar(){
 
 function colocaNaLista(valor){
     let intemOption = document.createElement('option')
-    intemOption.value = valor
-    intemOption.text = valor
-    selNumadd.appendChild(intemOption)
+    
+    if (estaNaLista(valor)){
+        intemOption.value = valor
+        intemOption.text = valor
+        selNumadd.appendChild(intemOption)
+        vetvalores.push(valor)
+    }else{
+        
+    }
 }
 
