@@ -11,11 +11,14 @@
           <?php
                 $c = 1;
                 while ($c<=20){
+                    $numdiv = 0;
                     for ($i=1; $i<=20; $i++){
                         if ($c%$i == 0){
-                            $numdiv++;
-                            echo "$c é divisivel por $i<br>";
+                           $numdiv++
                         }
+                    }
+                    if ($numdiv == 2){
+                        echo "$c<br>";
                     }
                    $c++;
                 }
