@@ -9,7 +9,7 @@
 <body>
     <div>
           <?php
-                echo "<h2>Números primos entre 0 e 200.</h2>";
+                echo "<h2>Números primos entre 0 e 200:</h2>";
                 $c = 1;
                 while ($c<=200){
                     $numdiv = 0;
@@ -19,7 +19,7 @@
                         }
                     }
                     if ($numdiv == 2){
-                        echo "$c<br>";
+                        echo " $c<br>";
                     }
                    $c++;
                 }
