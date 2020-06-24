@@ -9,11 +9,15 @@
 <body>
     <div>
           <?php
-                $c = 0;
-                while ($c<=200){
-                    echo "$c<br>";
-                    
-                    $c++;
+                $c = 1;
+                while ($c<=20){
+                    for ($i=1; $i<=20; $i++){
+                        if ($c%$i == 0){
+                            $numdiv++;
+                            echo "$c é divisivel por $i<br>";
+                        }
+                    }
+                   $c++;
                 }
           ?>  
     </div>
