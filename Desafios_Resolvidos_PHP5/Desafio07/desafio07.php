@@ -9,10 +9,11 @@
 <body>
     <div>
           <?php
+                echo "<h2>Números primos entre 0 e 200.</h2>";
                 $c = 1;
-                while ($c<=20){
+                while ($c<=200){
                     $numdiv = 0;
-                    for ($i=1; $i<=20; $i++){
+                    for ($i=1; $i<=200; $i++){
                         if ($c%$i == 0){
                            $numdiv++;
                         }
