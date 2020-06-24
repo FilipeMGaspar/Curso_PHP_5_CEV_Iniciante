@@ -12,10 +12,12 @@
             Número: <input type="number" name="val"> <input type="submit" value="Adicionar"><br>
             <select name="numAdd" id="selNumadd" size="6">
                 <?php
-                    $i = 1;
-                    $v = $_GET["val"];                    
-                    echo "<option value='$i'>$v</option>";
-                    $i++;
+                    $i = array;
+                    $i[] = $_GET["val"];   
+                    foreach ($i as $valor){                 
+                        echo "<option>$valor</option>";
+                    }
+                    //utilizar vetor para receber dados e depois colocar na lista
                 ?>
             </select>
         </form>    
