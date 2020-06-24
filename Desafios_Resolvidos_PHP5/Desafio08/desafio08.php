@@ -10,10 +10,12 @@
     <div>
         <form method="GET" action="#">
             Número: <input type="number" name="val"> <input type="submit" value="Adicionar"><br>
-            <select name="numAdd" id="selNumadd">
+            <select name="numAdd" id="selNumadd" size="6">
                 <?php
-                    $v = $_GET["val"];
-                    echo "<option>$v</option>";
+                    $i = 1;
+                    $v = $_GET["val"];                    
+                    echo "<option value='$i'>$v</option>";
+                    $i++;
                 ?>
             </select>
         </form>    
