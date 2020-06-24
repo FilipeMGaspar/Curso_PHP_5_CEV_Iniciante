@@ -9,8 +9,12 @@
 <body>
     <div>
         <form method="GET" action="#">
-            Número: <input type="number" name="val"> <input type="submit" value="Adicionar">
-            
+            Número: <input type="number" name="val"> <input type="submit" value="Adicionar"><br>
+            <select name="numAdd" id="selNumadd">
+                <?php
+                    
+                ?>
+            </select>
         </form>    
     </div>
 </body>
