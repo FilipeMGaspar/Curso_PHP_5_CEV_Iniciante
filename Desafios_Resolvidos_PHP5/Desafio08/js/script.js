@@ -1,8 +1,11 @@
 let cxVal = document.querySelector('input#cxVal')
 
-document.onload{
-    cxVal.focus()
+document.onload = iniciar()
+    
 
+function iniciar(){
+    cxVal.focus()
+    cxVal.value = ''
 }
 
 function adicionar(){
