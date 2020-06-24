@@ -12,7 +12,8 @@
             Número: <input type="number" name="val"> <input type="submit" value="Adicionar"><br>
             <select name="numAdd" id="selNumadd">
                 <?php
-                    
+                    $v = $_GET["val"];
+                    echo "<option>$v</option>";
                 ?>
             </select>
         </form>    
