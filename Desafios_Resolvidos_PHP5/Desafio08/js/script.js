@@ -1,4 +1,5 @@
 let cxVal = document.querySelector('input#cxVal')
+let selNumadd = document.querySelector('select#selNumadd')
 
 document.onload = iniciar()   
 
@@ -12,7 +13,14 @@ function adicionar(){
         alert ('!![ERRO]!! Não foi informado nenhum número!')
         iniciar()
     }else{
-        alert ('Tudo ok podemos continuar')
+       colocaNaLista(Number(cxVal.value))
     }
+}
+
+function colocaNaLista(valor){
+    let intemOption = document.createElement('option')
+    intemOption.value = valor
+    intemOption.text = valor
+    selNumadd.appendChild(intemOption)
 }
 
