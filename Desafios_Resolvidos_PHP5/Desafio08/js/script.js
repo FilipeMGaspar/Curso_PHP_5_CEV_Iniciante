@@ -21,13 +21,22 @@ function adicionar(){
 function colocaNaLista(valor){
     let intemOption = document.createElement('option')
     
-    if (estaNaLista(valor)){
+    if (estaNaLista(valor, vetvalores)){
         intemOption.value = valor
         intemOption.text = valor
         selNumadd.appendChild(intemOption)
         vetvalores.push(valor)
+        iniciar()
     }else{
-        
+        alert (`!![ERRO]!! O Número ${valor} já se encontara na lista!`)
+        iniciar()
     }
 }
 
+function estaNaLista(num, listadevalores){
+    if(listadevalores.indexOf(num)==-1){
+        return true
+    }else{
+        return false
+    }
+}
