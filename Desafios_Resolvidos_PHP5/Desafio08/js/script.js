@@ -1,7 +1,6 @@
 let cxVal = document.querySelector('input#cxVal')
 
-document.onload = iniciar()
-    
+document.onload = iniciar()   
 
 function iniciar(){
     cxVal.focus()
