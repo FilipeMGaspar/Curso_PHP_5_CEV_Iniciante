@@ -14,7 +14,7 @@
                     $numdiv = 0;
                     for ($i=1; $i<=20; $i++){
                         if ($c%$i == 0){
-                           $numdiv++
+                           $numdiv++;
                         }
                     }
                     if ($numdiv == 2){
