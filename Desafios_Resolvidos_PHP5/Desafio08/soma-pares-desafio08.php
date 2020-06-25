@@ -17,11 +17,20 @@
                 $$val = $_GET[$url];
 
                 if($$val%2==0){
-                    $vet[] = $$val; 
+                    $vetPar[] = $$val; 
                 }
+
+                for ($i=1; $i<$$val;$i++){
+                    if($$val%$i==0){
+                        $numdiv++;
+                        echo $$val."divide por".$i."<br>";
+                    }   
+                }
+                
             }
-           sort($vet);
-           print_r($vet);
+           sort($vetPar);
+           print_r($vetPar);
+
         ?> 
         
         <br><br>
