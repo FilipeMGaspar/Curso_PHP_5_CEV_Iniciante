@@ -10,13 +10,11 @@
     <div>
         <?php
             $nrDcx = isset($_GET["qtNraIns"]) ? $_GET["qtNraIns"] : "nd";
-            echo "<br>";
-            var_dump($nrDcx);
-            echo "<br>";
-            if(($nrDcx != "nd") || ($nrDcx!="")){
 
-            }else{
+            if(($nrDcx == "nd") || ($nrDcx=="")){
                 echo "Falta definir a quantidade de números a inserir!";
+            }else{
+                echo "<h2>desaja verificar <span class='foco'>$nrDcx</span></h2>";                
             }
         ?>      
         
