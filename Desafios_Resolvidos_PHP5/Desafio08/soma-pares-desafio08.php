@@ -44,8 +44,11 @@
             }
             echo "<br>Soma dos números pares $somaPares";
             
+            $somaprimos = 0;
             echo "<br><h2>Números Primos:</h2>";
-            
+            foreach ($vetPrimos as $primos){
+                echo "$primos; <br>";
+            }
         ?> 
         
         <br><br>
