@@ -9,7 +9,9 @@
 <body>
     <div>
         <?php
-           for ($c=1; $c<=10; $c++){
+        $numdiv = 0;
+           
+            for ($c=1; $c<=10; $c++){
                 $v = "val".$c;
                 $url = $v;
                 $$val = $_GET[$url];
@@ -17,7 +19,7 @@
                 if($$val%2==0){
                     $vet[] = $$val; 
                 }
-           }
+            }
            sort($vet);
            print_r($vet);
         ?> 
