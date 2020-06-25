@@ -29,12 +29,11 @@
                     $vetPrimos[] = $$val;
                 } 
             }
-           //linhas para testes
+           
             sort($vetPar);
-            print_r($vetPar);
-            echo "<br><br>";
+
             sort($vetPrimos);
-            print_r($vetPrimos);
+          
             
             $somaPares = 0;
             echo "<br><h2>Números pares:</h2>";
