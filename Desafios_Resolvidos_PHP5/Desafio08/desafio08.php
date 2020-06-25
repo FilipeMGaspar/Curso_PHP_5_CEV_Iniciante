@@ -7,21 +7,10 @@
     <link rel="stylesheet" href="_css/style.css">
 </head>
 <body>
-    <div>
-        <?php
-            $nrDcx = isset($_GET["qtNraIns"]) ? $_GET["qtNraIns"] : "nd";
-
-            if(($nrDcx == "nd") || ($nrDcx=="")){
-                echo "Falta definir a quantidade de números a inserir!";
-                echo "<br><br>";
-                echo "<a href='javascript:history.go(-1)' class='botao'>Voltar</a>";
-            }else{
-                echo "<h2>Deseja verificar <span class='foco'>$nrDcx</span> números.</h2><br>";                
-            }
-        ?>      
+    <div>     
         <form method="GET" action="soma-pares-desafio08.php">
             <?php
-                for ($i=1; $i<=$nrDcx; $i++){
+                for ($i=1; $i<=10; $i++){
                     echo "Número $i: <input type='number' name='val$i' min='0' class='insnum' required><br>";
                 }
                 
