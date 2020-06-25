@@ -30,7 +30,7 @@ div {
     margin: 100px auto 100px auto;
     padding: 10px;
     width: 540px;
-    min-height:300px;
+    min-height:310px;
     box-shadow: 3px 3px 10px  rgb(91, 91, 97);
 }
 
@@ -64,4 +64,8 @@ input.insnum{
     text-indent: 15px;
     margin-top: 7px;
     margin-left: 3px;
+}
+
+h3{
+    margin-left: 15px;
 }
