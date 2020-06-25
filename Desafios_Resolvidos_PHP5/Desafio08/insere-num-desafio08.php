@@ -22,7 +22,7 @@
         <form method="GET" action="">
             <?php
                 for ($i=1; $i<=$nrDcx; $i++){
-                    echo "Número $i: <br>";
+                    echo "Número $i: <input type='number' name='val$i' min='0' class='insnum'><br>";
                 }
             ?>
         </form>
