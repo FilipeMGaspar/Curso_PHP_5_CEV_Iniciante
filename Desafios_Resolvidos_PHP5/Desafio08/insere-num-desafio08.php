@@ -22,9 +22,11 @@
         <form method="GET" action="">
             <?php
                 for ($i=1; $i<=$nrDcx; $i++){
-                    echo "Número $i: <input type='number' name='val$i' min='0' class='insnum'><br>";
+                    echo "Número $i: <input type='number' name='val$i' min='0' class='insnum' required><br>";
                 }
             ?>
+            <br>
+            <input type="submit" class="botao" value="Verificar"> 
         </form>
            
     </div>
