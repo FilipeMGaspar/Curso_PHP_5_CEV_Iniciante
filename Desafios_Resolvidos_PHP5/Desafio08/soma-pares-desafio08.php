@@ -9,7 +9,7 @@
 <body>
     <div>
         <?php
-            $tst = $_GET["val"]
+            $tst = $_GET["$nrDcx"];
             echo "$nrDcx";
             //for($c=1; $c<=$nrDcx)
         ?> 
