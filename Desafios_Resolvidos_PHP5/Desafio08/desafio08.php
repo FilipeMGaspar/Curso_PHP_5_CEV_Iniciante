@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="_css/style.css">
 </head>
 <body>
-    <div>     
+    <div>
+        <p>Soma de números pares! Com o adicional de somar números primos.</p><br>     
         <form method="GET" action="soma-pares-desafio08.php">
             <?php
                 for ($i=1; $i<=10; $i++){
