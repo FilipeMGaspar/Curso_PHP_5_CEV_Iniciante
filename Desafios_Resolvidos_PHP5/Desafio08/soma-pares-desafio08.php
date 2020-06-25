@@ -29,11 +29,17 @@
                     $vetPrimos[] = $$val;
                 } 
             }
-           sort($vetPar);
-           print_r($vetPar);
-           echo "<br><br>";
-           sort($vetPrimos);
-           print_r($vetPrimos);
+           //linhas para testes
+            sort($vetPar);
+            print_r($vetPar);
+            echo "<br><br>";
+            sort($vetPrimos);
+            print_r($vetPrimos);
+            
+            echo "<br><h2>Números pares:<h2>";
+            foreach ($vetPar as $par){
+                echo "$par;<br>";
+            }
 
         ?> 
         
