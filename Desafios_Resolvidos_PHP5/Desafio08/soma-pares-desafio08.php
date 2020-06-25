@@ -8,10 +8,10 @@
 </head>
 <body>
     <div>
-        <?php
-        $numdiv = 0;
+        <?php       
            
             for ($c=1; $c<=10; $c++){
+                $numdiv = 0;
                 $v = "val".$c;
                 $url = $v;
                 $$val = $_GET[$url];
@@ -20,13 +20,16 @@
                     $vetPar[] = $$val; 
                 }
 
-                for ($i=1; $i<$$val;$i++){
+                for ($i=1; $i<=$$val ;$i++){
                     if($$val%$i==0){
                         $numdiv++;
-                        echo $$val."divide por".$i."<br>";
-                    }   
+                    } 
+                    if($numdiv ==2){
+                        echo $$val."<br>";
+                    }  
                 }
                 
+               
             }
            sort($vetPar);
            print_r($vetPar);
