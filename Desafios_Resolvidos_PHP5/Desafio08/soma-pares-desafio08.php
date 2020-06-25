@@ -44,11 +44,13 @@
             }
             echo "<h3>Soma dos números pares <span class='foco'>$somaPares</span></h3>";
             
-            $somaprimos = 0;
+            $somaPrimos = 0;
             echo "<br><br><h2>Números Primos:</h2>";
             foreach ($vetPrimos as $primos){
                 echo "$primos; <br>";
+                $somaPrimos += $primos;
             }
+            echo "<h3>Soma dos números primos <span class='foco'>$somaPrimos</span></h3>";
         ?> 
         
         <br><br>
