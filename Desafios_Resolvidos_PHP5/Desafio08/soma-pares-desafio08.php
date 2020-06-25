@@ -9,9 +9,11 @@
 <body>
     <div>
         <?php
-            $tst = $_GET["$nrDcx"];
-            echo "$nrDcx";
-            //for($c=1; $c<=$nrDcx)
+           for ($c=1; $c<=10; $c++){
+                $v = "val".$c;
+                $url = $v;
+                $val = $_GET[$url]
+           }
         ?> 
         
         <br><br>

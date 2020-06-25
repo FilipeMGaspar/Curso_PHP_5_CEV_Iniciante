@@ -12,8 +12,7 @@
             <?php
                 for ($i=1; $i<=10; $i++){
                     echo "Número $i: <input type='number' name='val$i' min='0' class='insnum' required><br>";
-                }
-                
+                }                
             ?>
             <br>
             <input type="submit" class="botao" value="Verificar"> 
