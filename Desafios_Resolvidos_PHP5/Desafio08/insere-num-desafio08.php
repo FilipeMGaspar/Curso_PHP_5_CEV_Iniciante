@@ -19,11 +19,21 @@
                 echo "<h2>Deseja verificar <span class='foco'>$nrDcx</span> números.</h2><br>";                
             }
         ?>      
-        <form method="GET" action="soma-pares-desafio08.php">
+        <form method="GET" action="">
             <?php
                 for ($i=1; $i<=$nrDcx; $i++){
                     echo "Número $i: <input type='number' name='val$i' min='0' class='insnum' required><br>";
                 }
+
+                for ($c=1; $c<=$i; $c++){
+                    $v = "val".$i; // $v = val1; val2 ...... val10
+                    $urlv = $v;// $urlv =  val1; val2 ...... val10
+                    $$vet[] = $_GET[$url];
+                    //$$var = isset($_GET[$urlv]) ? $_GET[$urlv] : 0 ;
+                }
+                echo"<br><br>";
+                print_r($$vet);
+                
             ?>
             <br>
             <input type="submit" class="botao" value="Verificar"> 
