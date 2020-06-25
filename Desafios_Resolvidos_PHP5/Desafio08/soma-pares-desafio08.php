@@ -11,7 +11,7 @@
         <?php       
            
             for ($c=1; $c<=10; $c++){
-                $numdiv = 0;
+                
                 $v = "val".$c;
                 $url = $v;
                 $$val = $_GET[$url];
@@ -19,12 +19,13 @@
                 if($$val%2==0){
                     $vetPar[] = $$val; 
                 }
-
+                $numdiv = 0;
                 for ($i=1; $i<=$$val ;$i++){
+                    
                     if($$val%$i==0){
                         $numdiv++;
                     } 
-                    if($numdiv ==2){
+                    if($numdiv == 2){
                         echo $$val."<br>";
                     }  
                 }
