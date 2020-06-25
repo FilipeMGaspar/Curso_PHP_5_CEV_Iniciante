@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafios para iniciantes em PHP5!</title>
+    <title>Desafio08!</title>
     <link rel="stylesheet" href="_css/style.css">
 </head>
 <body>
@@ -13,13 +13,16 @@
 
             if(($nrDcx == "nd") || ($nrDcx=="")){
                 echo "Falta definir a quantidade de números a inserir!";
+                echo "<br><br>";
+                echo "<a href='javascript:history.go(-1)' class='botao'>Voltar</a>";
             }else{
-                echo "<h2>desaja verificar <span class='foco'>$nrDcx</span></h2>";                
+                echo "<h2>Deseja verificar <span class='foco'>$nrDcx</span> números.</h2>";                
             }
         ?>      
-        
-        <br><br>
-        <a href="javascript:history.go(-1)" class="botao">Voltar</a>     
+        <form method="GET" action="">
+            
+        </form>
+           
     </div>
     
 </body>
