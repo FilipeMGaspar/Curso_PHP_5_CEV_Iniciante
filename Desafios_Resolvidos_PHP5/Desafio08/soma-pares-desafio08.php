@@ -12,7 +12,11 @@
            for ($c=1; $c<=10; $c++){
                 $v = "val".$c;
                 $url = $v;
-                $val = $_GET[$url]
+                $$val = $_GET[$url];
+
+                if($$val%2==0){
+                    echo "<span class='foco'>".$$val. "</span>";
+                }
            }
         ?> 
         
