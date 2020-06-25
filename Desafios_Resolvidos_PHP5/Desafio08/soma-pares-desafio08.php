@@ -36,12 +36,16 @@
             sort($vetPrimos);
             print_r($vetPrimos);
             
+            $somaPares = 0;
             echo "<br><h2>Números pares:</h2>";
             foreach ($vetPar as $par){
                 echo "$par;<br>";
+                $somaPares += $par;
             }
-
-            echo "<br><h2></h2>"
+            echo "<br>Soma dos números pares $somaPares";
+            
+            echo "<br><h2>Números Primos:</h2>";
+            
         ?> 
         
         <br><br>
