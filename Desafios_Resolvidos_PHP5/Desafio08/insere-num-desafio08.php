@@ -20,7 +20,11 @@
             }
         ?>      
         <form method="GET" action="">
-            
+            <?php
+                for ($i=1; $i<=$nrDcx; $i++){
+
+                }
+            ?>
         </form>
            
     </div>
