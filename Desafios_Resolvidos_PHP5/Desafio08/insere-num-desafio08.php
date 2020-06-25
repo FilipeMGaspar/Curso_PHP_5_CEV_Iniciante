@@ -13,7 +13,7 @@
             echo "<br>";
             var_dump($nrDcx);
             echo "<br>";
-            if(($nrDcx != "nd") ){
+            if(($nrDcx != "nd") || ($nrDcx !="")){
 
             }else{
                 echo "Falta definir a quantidade de números a inserir!";
