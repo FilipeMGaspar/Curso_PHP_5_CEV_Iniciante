@@ -26,11 +26,14 @@
                     }  
                 }
                 if($numdiv == 2){
-                    echo $$val."<br>";
+                    $vetPrimos[] = $$val;
                 } 
             }
            sort($vetPar);
            print_r($vetPar);
+           echo "<br><br>";
+           sort($vetPrimos);
+           print_r($vetPrimos);
 
         ?> 
         
