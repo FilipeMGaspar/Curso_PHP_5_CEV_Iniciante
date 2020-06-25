@@ -8,7 +8,12 @@
 </head>
 <body>
     <div>
-        
+        <?php
+            include_once "insere-num-desafio08.php";
+
+            echo "$nrDcx";
+            //for($c=1; $c<=$nrDcx)
+        ?> 
         
         <br><br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>     
