@@ -16,13 +16,13 @@
                 echo "<br><br>";
                 echo "<a href='javascript:history.go(-1)' class='botao'>Voltar</a>";
             }else{
-                echo "<h2>Deseja verificar <span class='foco'>$nrDcx</span> números.</h2>";                
+                echo "<h2>Deseja verificar <span class='foco'>$nrDcx</span> números.</h2><br>";                
             }
         ?>      
         <form method="GET" action="">
             <?php
                 for ($i=1; $i<=$nrDcx; $i++){
-
+                    echo "Número $i: <br>";
                 }
             ?>
         </form>
