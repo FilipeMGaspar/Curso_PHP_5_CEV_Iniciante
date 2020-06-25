@@ -64,3 +64,7 @@ input.insnum{
     text-indent: 15px;
     margin-top: 7px;
 }
+
+input.notdisplay{
+    display: none;
+}

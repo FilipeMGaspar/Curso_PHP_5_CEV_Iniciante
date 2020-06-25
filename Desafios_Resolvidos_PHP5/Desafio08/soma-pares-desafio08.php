@@ -9,8 +9,7 @@
 <body>
     <div>
         <?php
-            include_once "insere-num-desafio08.php";
-
+            $tst = $_GET["val"]
             echo "$nrDcx";
             //for($c=1; $c<=$nrDcx)
         ?> 

@@ -24,6 +24,7 @@
                 for ($i=1; $i<=$nrDcx; $i++){
                     echo "Número $i: <input type='number' name='val$i' min='0' class='insnum' required><br>";
                 }
+                Echo "<input type='number' name='inp$nrDcx' min='0' class='notdisplay'><br>";
             ?>
             <br>
             <input type="submit" class="botao" value="Verificar"> 
