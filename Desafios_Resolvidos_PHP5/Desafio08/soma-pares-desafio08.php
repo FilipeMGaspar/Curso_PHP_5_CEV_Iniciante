@@ -15,9 +15,11 @@
                 $$val = $_GET[$url];
 
                 if($$val%2==0){
-                    echo "<span class='foco'>".$$val. "</span>";
+                    $vet[] = $$val; 
                 }
            }
+           sort($vet);
+           print_r($vet);
         ?> 
         
         <br><br>
