@@ -36,11 +36,12 @@
             sort($vetPrimos);
             print_r($vetPrimos);
             
-            echo "<br><h2>Números pares:<h2>";
+            echo "<br><h2>Números pares:</h2>";
             foreach ($vetPar as $par){
                 echo "$par;<br>";
             }
 
+            echo "<br><h2></h2>"
         ?> 
         
         <br><br>
