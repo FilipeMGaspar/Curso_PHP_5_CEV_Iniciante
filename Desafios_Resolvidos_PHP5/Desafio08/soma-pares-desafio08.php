@@ -41,7 +41,7 @@
                 echo "$par;<br>";
                 $somaPares += $par;
             }
-            echo "<h3>Soma dos números pares <span class='foco'>$somaPares</span></h3>";
+            echo "<h3> A soma dos números pares tem o valor de <span class='foco'>$somaPares</span></h3>";
             
             $somaPrimos = 0;
             echo "<br><br><h2>Números Primos:</h2>";
@@ -49,7 +49,7 @@
                 echo "$primos; <br>";
                 $somaPrimos += $primos;
             }
-            echo "<h3>Soma dos números primos <span class='foco'>$somaPrimos</span></h3>";
+            echo "<h3> A soma dos números primos tem o valor de <span class='foco'>$somaPrimos</span></h3>";
         ?> 
         
         <br><br>
