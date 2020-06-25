@@ -42,10 +42,10 @@
                 echo "$par;<br>";
                 $somaPares += $par;
             }
-            echo "<br>Soma dos números pares $somaPares";
+            echo "<h3>Soma dos números pares <span class='foco'>$somaPares</span></h3>";
             
             $somaprimos = 0;
-            echo "<br><h2>Números Primos:</h2>";
+            echo "<br><br><h2>Números Primos:</h2>";
             foreach ($vetPrimos as $primos){
                 echo "$primos; <br>";
             }
