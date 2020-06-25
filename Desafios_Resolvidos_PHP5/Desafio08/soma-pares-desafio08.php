@@ -20,17 +20,14 @@
                     $vetPar[] = $$val; 
                 }
                 $numdiv = 0;
-                for ($i=1; $i<=$$val ;$i++){
-                    
+                for ($i=1; $i<=$$val ;$i++){                    
                     if($$val%$i==0){
                         $numdiv++;
-                    } 
-                    if($numdiv == 2){
-                        echo $$val."<br>";
                     }  
                 }
-                
-               
+                if($numdiv == 2){
+                    echo $$val."<br>";
+                } 
             }
            sort($vetPar);
            print_r($vetPar);
