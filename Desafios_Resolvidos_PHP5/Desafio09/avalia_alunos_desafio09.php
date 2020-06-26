@@ -16,7 +16,9 @@
             if(($nome == "nd") || ($nota1 == "nd") || ($nota2 == "nd")){
                 echo "<h2>Não foram definidos os campos do formulário!</h2>";
             }else{
-                echo "<h2>Avaliação do aluno $nome</h2><br>";
+                echo "<h2>Avaliação do aluno <span class='foco'>$nome</span>
+                </h2><br>";
+                echo "Nota do primeiro teste: <span class='foco'>$nota1</span>";
             }
         ?>            
         <br><br>
