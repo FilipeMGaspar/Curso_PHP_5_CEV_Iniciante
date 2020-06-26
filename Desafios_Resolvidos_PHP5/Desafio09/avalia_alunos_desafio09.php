@@ -23,6 +23,7 @@
 
                 $media = ($nota1+$nota2)/2;
                 echo "<br><p>Com média de <span class='foco'>$media</span> valores</p>";
+
                 
                 echo "<br><p>Avaliação: <span class='foco'></span></p>";
             }
