@@ -9,9 +9,15 @@
 <body>
     <div>
         <?php
-            $_nome = isset($_GET["nome"]) ? $_GET["nome"] : "nd";
-
+            $nome = isset($_GET["nome"]) ? $_GET["nome"] : "nd";
+            $nota1 = isset($_GET["nt1"]) ? $_GET["nt1"] : "nd";
             
+
+            if($nome == "nd"){
+                echo "<h2>Não foram definidos os campos do formulário!</h2>";
+            }else{
+                echo "<h2>Avaliação do aluno $nome</h2><br>";
+            }
         ?>            
         <br><br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>     
