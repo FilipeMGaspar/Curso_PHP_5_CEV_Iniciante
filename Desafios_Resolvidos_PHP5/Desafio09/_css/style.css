@@ -59,6 +59,9 @@ span.foco {
     border-radius: 10px;
 }
 
+.nome{
+    text-indent: 8px;
+}
 .notas{
     width: 80px;
     text-indent: 8px;
