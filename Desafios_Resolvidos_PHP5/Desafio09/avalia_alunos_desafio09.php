@@ -24,8 +24,13 @@
                 $media = ($nota1+$nota2)/2;
                 echo "<br><p>Com média de <span class='foco'>$media</span> valores</p>";
 
+                if(($media>=0) && ($media<5)){
+                    $sit = "Insuficiente";
+                }elseif ($media<6.5){
+                    $sit 
+                }
                 
-                echo "<br><p>Avaliação: <span class='foco'></span></p>";
+                echo "<br><p>Avaliação: <span class='foco'>$sit</span></p>";
             }
         ?>            
         <br><br>
