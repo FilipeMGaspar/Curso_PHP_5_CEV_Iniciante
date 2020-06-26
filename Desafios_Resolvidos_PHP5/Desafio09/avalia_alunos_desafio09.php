@@ -32,6 +32,8 @@
                     $sit = "Bom";
                 }elseif ($media<9){
                     $sit = "Muito Bom";
+                }else{
+                    $sit = "Excelente";
                 }
                 
                 echo "<br><p>Avaliação: <span class='foco'>$sit</span></p>";
