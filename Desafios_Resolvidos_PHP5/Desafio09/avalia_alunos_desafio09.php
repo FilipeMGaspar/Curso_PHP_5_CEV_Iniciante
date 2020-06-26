@@ -9,6 +9,8 @@
 <body>
     <div>
         <?php
+            $_nome = isset($_GET["nome"]) ? $_GET["nome"] : "nd";
+
             
         ?>            
         <br><br>
