@@ -18,10 +18,13 @@
             }else{
                 echo "<h2>Avaliação do aluno <span class='foco'>$nome</span>
                 </h2><br>";
-                echo "<p>Nota do primeiro teste: <span class='foco'>$nota1</span></p><br>";
-                echo "<p>Nota do segundo teste: <span class='foco'>$nota2</span></p>";
+                echo "<p>Nota do primeiro teste: <span class='foco'>$nota1</span> valores.</p><br>";
+                echo "<p>Nota do segundo teste: <span class='foco'>$nota2</span> valores</p>";
 
                 $media = ($nota1+$nota2)/2;
+                echo "<br><p>Com média de <span class='foco'>$media</span> valores</p>";
+                
+                echo "<br><p>Avaliação: <span class='foco'></span></p>";
             }
         ?>            
         <br><br>
