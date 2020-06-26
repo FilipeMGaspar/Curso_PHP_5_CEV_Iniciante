@@ -18,7 +18,8 @@
             }else{
                 echo "<h2>Avaliação do aluno <span class='foco'>$nome</span>
                 </h2><br>";
-                echo "Nota do primeiro teste: <span class='foco'>$nota1</span>";
+                echo "<p>Nota do primeiro teste: <span class='foco'>$nota1</span></p><br>";
+                echo "<p>Nota do segundo teste: <span class='foco'>$nota2</span></p>";
             }
         ?>            
         <br><br>
