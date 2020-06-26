@@ -21,7 +21,7 @@
                 echo "<p>Nota do primeiro teste: <span class='foco'>$nota1</span></p><br>";
                 echo "<p>Nota do segundo teste: <span class='foco'>$nota2</span></p>";
 
-                $media = ()
+                $media = ($nota1+$nota2)/2;
             }
         ?>            
         <br><br>
