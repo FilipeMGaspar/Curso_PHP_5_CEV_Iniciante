@@ -27,7 +27,7 @@
                 if(($media>=0) && ($media<5)){
                     $sit = "Insuficiente";
                 }elseif ($media<6.5){
-                    $sit 
+                    $sit = "Regular";
                 }
                 
                 echo "<br><p>Avaliação: <span class='foco'>$sit</span></p>";
