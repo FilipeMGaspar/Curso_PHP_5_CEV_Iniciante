@@ -11,9 +11,9 @@
         <?php
             $nome = isset($_GET["nome"]) ? $_GET["nome"] : "nd";
             $nota1 = isset($_GET["nt1"]) ? $_GET["nt1"] : "nd";
-            
+            $nota2 = isset($_GET["nt2"]) ? $_GET["nt2"] : "nd";
 
-            if($nome == "nd"){
+            if(($nome == "nd") || ($nota1 == "nd") || ($nota2 == "nd")){
                 echo "<h2>Não foram definidos os campos do formulário!</h2>";
             }else{
                 echo "<h2>Avaliação do aluno $nome</h2><br>";
