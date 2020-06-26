@@ -28,6 +28,10 @@
                     $sit = "Insuficiente";
                 }elseif ($media<6.5){
                     $sit = "Suficiente";
+                }elseif($media<8){
+                    $sit = "Bom";
+                }elseif ($media<9){
+                    $sit = "Muito Bom";
                 }
                 
                 echo "<br><p>Avaliação: <span class='foco'>$sit</span></p>";
