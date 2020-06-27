@@ -8,12 +8,12 @@
 </head>
 <body>
     <div>
-        <p>Calculadora de números quadráticos!</p>
+        <p>Calculadora de números quadráticos!</p><br>
          <form method="GET" action="">
              <?php
                 $c=1;
                 while($c<=5){
-                    echo "Número $c: <input type='number' name='val$c' required><br>";
+                    echo "Número $c: <input type='number' name='val$c' required><br><br>";
                     $c++;
                 }
              ?>
