@@ -8,7 +8,7 @@
 </head>
 <body>
     <div>
-        <p>Calculadora de números quadráticos!</p><br>
+        <h2>Calculadora de números quadráticos!</h2><br>
          <form method="GET" action="">
              <?php
                 $c=1;
