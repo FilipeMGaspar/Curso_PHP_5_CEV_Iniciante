@@ -18,7 +18,7 @@
                     echo "<h2>Valores indefinidos. Impossivel Continuar</h2>";
                     $i = 5;
                 }else{
-                    echo $$val." ao quadrado".  ."<br>";
+                    echo $$val." ao quadrado". pow() ."<br>";
                 }
             }
         ?>        
