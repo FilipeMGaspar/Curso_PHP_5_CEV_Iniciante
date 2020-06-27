@@ -9,7 +9,7 @@
 <body>
     <div>
         <h2>Calculadora de números quadráticos!</h2><br>
-         <form method="GET" action="">
+         <form method="GET" action="quadraticos_desafio10.php">
              <?php
                 $c=1;
                 while($c<=5){
