@@ -17,6 +17,8 @@
                 if ($$val == "nd"){
                     echo "<h2>Valores indefinidos. Impossivel Continuar</h2>";
                     $i = 5;
+                }else{
+                    
                 }
             }
         ?>        
