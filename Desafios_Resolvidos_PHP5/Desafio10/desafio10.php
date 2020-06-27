@@ -10,7 +10,13 @@
     <div>
         <p>Calculadora de números quadráticos!</p>
          <form method="GET" action="">
-             
+             <?php
+                $c=1;
+                while($c<=5){
+                    echo "Número $c: <input type='number' name='val$c' required><br>";
+                    $c++;
+                }
+             ?>
             <input type="submit" class="botao" value="Calcular">
          </form>   
     </div>
