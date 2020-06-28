@@ -14,7 +14,10 @@
                
             if(($base == "nd") || ($elev="nd")){
                 echo "<h2>Não foi definida nenhuma base nem nenhum expoente!<h2>";
+            }else{
+                echo "<h2>Calculo de <span class='foco'>$base<sup>$elev</sup></span></h2>";
             }
+
         ?>
 
         <br><br>
