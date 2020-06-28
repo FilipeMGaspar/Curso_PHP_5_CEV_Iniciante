@@ -15,8 +15,8 @@
               echo"<br><br>";
               var_dump($elev); 
               echo"<br><br>";
-              
-            if(($base == "nd") || ($elev="nd")){
+
+            if(($base == "nd") || ($elev == "nd")){
                 echo "<h2>Não foi definida nenhuma base nem nenhum expoente!<h2>";
             }else{
                 echo "<h2>Calculo de <span class='foco'>$base<sup>$elev</sup></span></h2>";
