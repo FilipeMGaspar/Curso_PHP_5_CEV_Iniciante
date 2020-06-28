@@ -9,17 +9,17 @@
 <body>
     <div>
         <h2>Números Exponenciados!</h2><br>
-         <form method="GET" action="quadraticos_desafio10.php">
              <?php
                $base = isset($_GET["base"]) ? $_GET["base"] : "nd";
                $elev = isset($_GET["exp"]) ? $_GET["exp"] : "nd";
                
                if(($base == "nd") || ($elev="nd")){
-                echo "<h2>Não foi definida nenhuma base nem nenhum expoente<h2>";
+                echo "<h2>Não foi definida nenhuma base nem nenhum expoente!<h2>";
                }
              ?>
-            <input type="submit" class="botao" value="Calcular">
-         </form>   
+             
+        <br><br>
+        <a href="javascript:history.go(-1)" class="botao">Voltar</a> 
     </div>
 </body>
 </html>
