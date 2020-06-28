@@ -16,7 +16,7 @@
                 echo "<h2>Não foi definida nenhuma base nem nenhum expoente!<h2>";
             }else{
                 echo "<h2>Calculo de <span class='foco'>$base<sup>$elev</sup></span></h2>";
-                echo "<br><p>$base<sup>$elev</sup> =". pow($base, $elev) ."</p>";
+                echo "<br><p>O resulatado da operação : $base<sup>$elev</sup> = ". pow($base, $elev) ."</p>";
             }
 
         ?>
