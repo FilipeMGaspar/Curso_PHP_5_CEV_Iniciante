@@ -8,16 +8,15 @@
 </head>
 <body>
     <div>
-        <h2>Números Exponenciados!</h2><br>
-             <?php
-               $base = isset($_GET["base"]) ? $_GET["base"] : "nd";
-               $elev = isset($_GET["exp"]) ? $_GET["exp"] : "nd";
+        <?php
+            $base = isset($_GET["base"]) ? $_GET["base"] : "nd";
+            $elev = isset($_GET["exp"]) ? $_GET["exp"] : "nd";
                
-               if(($base == "nd") || ($elev="nd")){
+            if(($base == "nd") || ($elev="nd")){
                 echo "<h2>Não foi definida nenhuma base nem nenhum expoente!<h2>";
-               }
-             ?>
-             
+            }
+        ?>
+
         <br><br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a> 
     </div>
