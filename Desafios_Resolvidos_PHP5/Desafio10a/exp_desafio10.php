@@ -9,8 +9,10 @@
 <body>
     <div>
         <h2>Números Exponenciados!</h2><br>
-         <form method="GET" action="">
-           
+         <form method="GET" action="quadraticos_desafio10.php">
+             <?php
+               
+             ?>
             <input type="submit" class="botao" value="Calcular">
          </form>   
     </div>
