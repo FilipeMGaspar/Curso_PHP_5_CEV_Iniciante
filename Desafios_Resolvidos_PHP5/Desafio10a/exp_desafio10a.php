@@ -14,7 +14,9 @@
                $base = isset($_GET["base"]) ? $_GET["base"] : "nd";
                $elev = isset($_GET["exp"]) ? $_GET["exp"] : "nd";
                
-               
+               if(($base == "nd") || ($elev="nd")){
+                echo "<h2>Não foi definida nenhuma base nem nenhum expoente<h2>";
+               }
              ?>
             <input type="submit" class="botao" value="Calcular">
          </form>   
