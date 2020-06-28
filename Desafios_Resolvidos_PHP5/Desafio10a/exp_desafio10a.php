@@ -11,6 +11,9 @@
         <h2>Números Exponenciados!</h2><br>
          <form method="GET" action="quadraticos_desafio10.php">
              <?php
+               $base = isset($_GET["base"]) ? $_GET["base"] : "nd";
+               $elev = isset($_GET["exp"]) ? $_GET["exp"] : "nd";
+               
                
              ?>
             <input type="submit" class="botao" value="Calcular">
