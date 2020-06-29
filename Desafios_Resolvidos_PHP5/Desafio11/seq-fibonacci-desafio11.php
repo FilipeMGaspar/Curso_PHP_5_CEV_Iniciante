@@ -21,7 +21,7 @@
                 echo "<br> Sequência Fibonacci: <br><br>";
 
                 if($nrTermFib == 1){
-                    echo "$termo1";
+                    echo $termo1 +1 ;
                 }else{
                     echo "$termo1 - $termo2";
                     $somaNTermos = $termo1 + $termo2;
