@@ -14,7 +14,7 @@
             if($nrTermFib == ""){
                 echo "<h2>Não foi definito o número de termos a mostrar!</h2>";
             }else{
-                echo "<h2>Solicitou mostrar $nrTermFib da </h2>";
+                echo "<h2>Solicitou mostrar <span class='foco'>$nrTermFib</span> da Sequência Fibonacci</h2>";
             }
         ?>
         
