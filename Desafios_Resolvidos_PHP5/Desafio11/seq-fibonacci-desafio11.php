@@ -22,6 +22,7 @@
 
                 if($nrTermFib == 1){
                     echo $termo1 +1 ;
+                    $somaNTermos = 1;
                 }else{
                     echo "$termo1 - $termo2";
                     $somaNTermos = $termo1 + $termo2;
