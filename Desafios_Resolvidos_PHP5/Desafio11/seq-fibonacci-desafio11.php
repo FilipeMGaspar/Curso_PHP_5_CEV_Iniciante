@@ -17,7 +17,8 @@
                 $termo1 = 0;
                 $termo2 = 1;
                 echo "<h2>Solicitou mostrar <span class='foco'>$nrTermFib</span> da Sequência Fibonacci</h2>";
-                
+                echo "<br>";
+
                 if($nrTermFib == 1){
                     echo "$termo1";
                 }else{
@@ -25,6 +26,7 @@
                 }
                
                 echo " - FIM!";
+                echo "<br>";
             }
         ?>
         
