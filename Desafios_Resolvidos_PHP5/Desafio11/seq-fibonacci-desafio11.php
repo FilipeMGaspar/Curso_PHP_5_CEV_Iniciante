@@ -9,10 +9,10 @@
 <body>
     <div>
         <?php
-            $_nrTermFib = isset($_GET["nrTerm"]) ? $_GET["nrTerm"] : "";
+            $nrTermFib = isset($_GET["nrTerm"]) ? $_GET["nrTerm"] : "";
             
-            if(){
-                
+            if($nrTermFib == ""){
+                echo "<h2>Não foi definito o número de termos a mostrar!</h2>";
             }
         ?>
         
