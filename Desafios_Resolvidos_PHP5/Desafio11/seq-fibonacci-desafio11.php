@@ -13,6 +13,8 @@
             
             if($nrTermFib == ""){
                 echo "<h2>Não foi definito o número de termos a mostrar!</h2>";
+            }else{
+                echo "<h2>Solicitou mostrar $nrTermFib da </h2>";
             }
         ?>
         
