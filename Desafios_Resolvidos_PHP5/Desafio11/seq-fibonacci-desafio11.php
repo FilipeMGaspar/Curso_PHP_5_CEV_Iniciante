@@ -23,10 +23,10 @@
                     echo "$termo1";
                 }else{
                     echo "$termo1 - $termo2";
-                    for($i=1; $i<=$nrTermFib; $i++){
+                    for($i=3; $i<=$nrTermFib; $i++){
                         $termo3 = $termo1 + $termo2;
                         echo " - $termo3 ";
-                        $termo2 = $termo1;
+                        $termo1 = $termo2;
                         $termo2 = $termo3;
                         
                     }
