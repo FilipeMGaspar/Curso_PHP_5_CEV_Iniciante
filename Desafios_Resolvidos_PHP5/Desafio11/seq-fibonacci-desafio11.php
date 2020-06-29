@@ -9,7 +9,11 @@
 <body>
     <div>
         <?php
+            $_nrTermFib = isset($_GET["nrTerm"]) ? $_GET["nrTerm"] : "";
             
+            if(){
+                
+            }
         ?>
         
         <br><br>
