@@ -60,6 +60,10 @@ span.foco {
 }
 
 .lblAltura{
-    margin-left: 15px;
+    margin-left: 35px;
 }
 
+.inpIMC{
+    width: 65px;
+    text-indent: 8px;
+}
