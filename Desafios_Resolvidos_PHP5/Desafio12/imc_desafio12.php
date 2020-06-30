@@ -9,6 +9,13 @@
 <body>
     <div>
         <h2>Calculo do Índice de Massa Corporal - IMC</h2><br>
+
+        <?php
+            $peso = isset($_GET["peso"]) ? $_GET["peso"] : "";
+            $alt = isset($_GET["altura"]) ? $_GET["altura"] : "";
+
+            
+        ?>
         
         <br><br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>     
