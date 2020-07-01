@@ -15,6 +15,8 @@
             $alt = isset($_GET["altura"]) ? $_GET["altura"] : "";
 
             $imc = ($peso/($alt*$alt));
+
+            echo "<h2>Para peso de ". $peso ."Kg e altura de ". $alt ."m IMC = $imc</h2>";
         ?>
         
         <br><br>
