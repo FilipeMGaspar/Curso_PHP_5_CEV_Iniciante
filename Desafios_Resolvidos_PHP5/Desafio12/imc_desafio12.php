@@ -22,7 +22,7 @@
                 $sit = "Magreza";
             }
 
-            echo
+            echo "<br><h3>Situação: <span class='foco'>$sit</span></h3>";
         ?>
         
         <br><br>
