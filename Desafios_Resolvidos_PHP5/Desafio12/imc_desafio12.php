@@ -17,6 +17,10 @@
             $imc = ($peso/($alt*$alt));
 
             echo "<h3>Para peso de ". $peso ."Kg e altura de ". $alt ."m <br><br> IMC = ". number_format($imc, 2)."Kg/m<sup>2</sup></h3>";
+
+            if($imc<18.5){
+                $sit = "";
+            }
         ?>
         
         <br><br>
