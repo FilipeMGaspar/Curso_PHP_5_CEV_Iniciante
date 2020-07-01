@@ -21,6 +21,8 @@
             if($imc<18.5){
                 $sit = "Magreza";
             }
+
+            echo
         ?>
         
         <br><br>
