@@ -14,7 +14,7 @@
             $peso = isset($_GET["peso"]) ? $_GET["peso"] : "";
             $alt = isset($_GET["altura"]) ? $_GET["altura"] : "";
 
-            
+            $imc = 
         ?>
         
         <br><br>
