@@ -23,7 +23,7 @@
             }elseif($imc<24.9){
                 $sit = "Normal";
             }elseif($imc<30){
-                
+                $sit = "Sobrepeso";
             }
 
             echo "<br><h3>Situação: <span class='foco'>$sit</span></h3>";
