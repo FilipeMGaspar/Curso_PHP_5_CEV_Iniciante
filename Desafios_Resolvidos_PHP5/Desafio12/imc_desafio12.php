@@ -20,6 +20,8 @@
 
             if($imc<18.5){
                 $sit = "Magreza";
+            }elseif($imc<24.9){
+                $sit 
             }
 
             echo "<br><h3>Situação: <span class='foco'>$sit</span></h3>";
