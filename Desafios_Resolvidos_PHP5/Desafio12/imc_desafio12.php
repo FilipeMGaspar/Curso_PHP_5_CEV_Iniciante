@@ -16,7 +16,7 @@
 
             $imc = ($peso/($alt*$alt));
 
-            echo "<h2>Para peso de ". $peso ."Kg e altura de ". $alt ."m IMC = $imc</h2>";
+            echo "<h3>Para peso de ". $peso ."Kg e altura de ". $alt ."m IMC =". number_format($imc, 2)."</h3>";
         ?>
         
         <br><br>
