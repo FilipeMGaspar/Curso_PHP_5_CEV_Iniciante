@@ -61,5 +61,11 @@ span.foco {
 
 fieldset{
     display: inline-block;
-    width: 110px;
+    width: 170px;
+}
+
+input#CxNr{
+    margin-left: 10px;
+    width: 70px;
+    text-indent: 10px;
 }
