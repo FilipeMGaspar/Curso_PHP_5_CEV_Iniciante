@@ -68,10 +68,21 @@ fieldset{
     margin-right: 35px;
 }
 
+legend{
+    text-align: center;
+    font-weight: bold;
+}
+
 input#CxNr{
     margin-left: 10px;
     margin-bottom: 10px;
-    margin-top: 15px;
+    margin-top: 90px;
     width: 70px;
     text-indent: 10px;
+}
+
+select{
+    width: 120px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
