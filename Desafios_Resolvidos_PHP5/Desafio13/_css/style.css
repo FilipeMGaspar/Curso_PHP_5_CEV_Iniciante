@@ -65,6 +65,7 @@ fieldset{
     display: inline-block;
     width: 170px;
     text-align: center;
+    margin-right: 35px;
 }
 
 input#CxNr{
