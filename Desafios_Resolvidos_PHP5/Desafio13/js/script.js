@@ -7,3 +7,6 @@ function iniciar(){
     CxNr.value = ''
 }
 
+function adicionar(){
+    
+}
