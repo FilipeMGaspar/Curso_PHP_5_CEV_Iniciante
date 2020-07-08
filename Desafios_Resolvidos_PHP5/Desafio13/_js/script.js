@@ -1,5 +1,6 @@
 let CxNr = document.querySelector('input#CxNr')
 
+
 document.onload = iniciar()
 
 function iniciar(){
@@ -12,6 +13,13 @@ function adicionar(){
         alert ('!!ERRO!! Nenhum número foi informado')
         iniciar()
     }else{
-        alert('Tudo ok podemos continuar')
+        adicionarNaLista(Number(CxNr.value))
     }
+}
+
+function adicionarNaLista(num){
+    
+    let itenOption = document.createElement('option')
+    itenOption.text = `${num}`
+
 }
