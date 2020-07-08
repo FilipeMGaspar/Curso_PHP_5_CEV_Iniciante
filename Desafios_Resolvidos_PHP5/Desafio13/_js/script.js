@@ -19,15 +19,15 @@ function adicionar(){
 
 function adicionarNaLista(num){   
     let btnAdiciona = document.querySelector('input#btnAdiciona') 
-    let nrElementos = 1
-
-    if (nrElementos<=5){
-        let itenOption = document.createElement('option')
-        itenOption.text = `${num}`
-        CxSelNr.appendChild(itenOption)
-        nrElementos += 1
-        alert (nrElementos)
-    }else{
+    let nrElementos = []
+    
+    let itenOption = document.createElement('option')
+    itenOption.text = `${num}`
+    CxSelNr.appendChild(itenOption)
+    nrElementos.push(num)
+    alert (nrElementos.length)
+    
+    if (nrElementos.length == 4){
         btnAdiciona.display = 'none'
     }
 }
