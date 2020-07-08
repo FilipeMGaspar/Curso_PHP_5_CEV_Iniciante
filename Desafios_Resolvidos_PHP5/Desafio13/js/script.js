@@ -10,5 +10,7 @@ function iniciar(){
 function adicionar(){
     if(CxNr.value.length == 0){
         alert ('!!ERRO!! Nenhum número foi informado')
+    }else{
+        alert('Tudo ok podemos continuar')
     }
 }
