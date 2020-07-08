@@ -86,3 +86,7 @@ select{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+input#btnMaiorMenor{
+    display: none;
+}
