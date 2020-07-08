@@ -27,8 +27,6 @@ function adicionarNaLista(num){
         CxSelNr.appendChild(itenOption)
         nrElementos ++
     }else{
-        btnAdiciona.style = ''
+        btnAdiciona.display = 'none'
     }
-
-
 }
