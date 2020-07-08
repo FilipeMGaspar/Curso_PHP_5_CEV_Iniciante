@@ -28,7 +28,7 @@ function adicionarNaLista(num){
 
     if (nrElementos.length == 4){
         alert('Estou no IF   ////')
-        btnAdiciona.display = 'none'
+        btnAdiciona.style.display = 'none'
     }
     alert(nrElementos.length)
 }
