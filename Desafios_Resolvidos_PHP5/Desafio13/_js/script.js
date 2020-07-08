@@ -20,12 +20,14 @@ function adicionar(){
 function adicionarNaLista(num){    
     let nrElementos = 1
 
-    while (nrElementos<=5){
+    if (nrElementos<=5){
         let itenOption = document.createElement('option')
         itenOption.text = `${num}`
         CxSelNr.appendChild(itenOption)
         nrElementos ++
+    }else{
+        
     }
-    
+
 
 }
