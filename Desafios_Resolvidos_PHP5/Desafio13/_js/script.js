@@ -1,5 +1,6 @@
 let CxNr = document.querySelector('input#CxNr')
 let CxSelNr = document.querySelector('select#CxSelNr')
+let nrElementos = []
 
 document.onload = iniciar()
 
@@ -18,16 +19,16 @@ function adicionar(){
 }
 
 function adicionarNaLista(num){   
-    let btnAdiciona = document.querySelector('input#btnAdiciona') 
-    let nrElementos = []
+    let btnAdiciona = document.querySelector('input#btnAdiciona')     
     
     let itenOption = document.createElement('option')
     itenOption.text = `${num}`
     CxSelNr.appendChild(itenOption)
     nrElementos.push(num)
-    alert (nrElementos.length)
-    
+
     if (nrElementos.length == 4){
+        alert('Estou no IF   ////')
         btnAdiciona.display = 'none'
     }
+    alert(nrElementos.length)
 }
