@@ -19,16 +19,16 @@ function adicionar(){
 }
 
 function adicionarNaLista(num){   
-    let btnAdiciona = document.querySelector('input#btnAdiciona')     
+    let btnAdiciona = document.querySelector('input#btnAdiciona')  
+    let btnMaiorMenor = document.querySelector('input#btnMaiorMenor')   
     
     let itenOption = document.createElement('option')
     itenOption.text = `${num}`
     CxSelNr.appendChild(itenOption)
     nrElementos.push(num)
 
-    if (nrElementos.length == 4){
-        alert('Estou no IF   ////')
+    if (nrElementos.length == 5){
         btnAdiciona.style.display = 'none'
+        btnMaiorMenor.style.display ='block' 
     }
-    alert(nrElementos.length)
 }
