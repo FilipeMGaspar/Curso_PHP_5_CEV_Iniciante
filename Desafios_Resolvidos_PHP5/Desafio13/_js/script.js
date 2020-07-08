@@ -17,7 +17,8 @@ function adicionar(){
     }
 }
 
-function adicionarNaLista(num){    
+function adicionarNaLista(num){   
+    let btnAdiciona = document.querySelector('input#btnAdiciona') 
     let nrElementos = 1
 
     if (nrElementos<=5){
@@ -26,7 +27,7 @@ function adicionarNaLista(num){
         CxSelNr.appendChild(itenOption)
         nrElementos ++
     }else{
-        
+        btnAdiciona.style = ''
     }
 
 
