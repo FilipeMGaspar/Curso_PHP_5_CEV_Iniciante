@@ -1,5 +1,5 @@
 let CxNr = document.querySelector('input#CxNr')
-let CxSelNr = document.querySelector('select"CxSelNr')
+let CxSelNr = document.querySelector('select#CxSelNr')
 
 document.onload = iniciar()
 
