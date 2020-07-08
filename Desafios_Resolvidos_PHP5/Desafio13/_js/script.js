@@ -19,8 +19,11 @@ function adicionar(){
 
 function adicionarNaLista(num){    
     let itenOption = document.createElement('option')
+    let nrElementos = 1
 
-    itenOption.text = `${num}`
-    CxSelNr.appendChild(itenOption)
+    while (){
+        itenOption.text = `${num}`
+        CxSelNr.appendChild(itenOption)
+    }
 
 }
