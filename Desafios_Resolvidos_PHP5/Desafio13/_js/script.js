@@ -17,10 +17,10 @@ function adicionar(){
     }
 }
 
-function adicionarNaLista(num){
-    
+function adicionarNaLista(num){    
     let itenOption = document.createElement('option')
+
     itenOption.text = `${num}`
     CxSelNr.appendChild(itenOption)
-    
+
 }
