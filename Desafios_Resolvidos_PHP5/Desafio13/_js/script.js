@@ -25,7 +25,8 @@ function adicionarNaLista(num){
         let itenOption = document.createElement('option')
         itenOption.text = `${num}`
         CxSelNr.appendChild(itenOption)
-        nrElementos ++
+        nrElementos += 1
+        alert (nrElementos)
     }else{
         btnAdiciona.display = 'none'
     }
