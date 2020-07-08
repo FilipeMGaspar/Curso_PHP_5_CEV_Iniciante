@@ -1,5 +1,5 @@
 let CxNr = document.querySelector('input#CxNr')
-
+let CxSelNr = document.querySelector('select"CxSelNr')
 
 document.onload = iniciar()
 
@@ -21,5 +21,6 @@ function adicionarNaLista(num){
     
     let itenOption = document.createElement('option')
     itenOption.text = `${num}`
-
+    CxSelNr.appendChild(itenOption)
+    
 }
