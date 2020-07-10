@@ -47,7 +47,9 @@ function adicionarNaLista(num){
 }
 
 function estaNaLista(nr, lstElementos){
-    //nrElementos.indexOf
-    
+    nrElementos.indexOf
+    if(lstElementos.indexOf(nr)==-1){
+        return true
+    }
 
 }
