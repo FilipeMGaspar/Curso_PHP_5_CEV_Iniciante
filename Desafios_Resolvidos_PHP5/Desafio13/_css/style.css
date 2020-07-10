@@ -90,3 +90,7 @@ select{
 input#btnMaiorMenor{
     display: none;
 }
+
+input.escondido{
+    display: none;
+}

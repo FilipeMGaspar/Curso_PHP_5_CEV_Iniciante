@@ -32,6 +32,7 @@ function adicionarNaLista(num){
     inptForm.type = 'number'
     inptForm.name = `val+${nrElementos.length}`
     inptForm.value = `${num}`
+    inptForm.className = 'escondido'
     formPHP.appendChild(inptForm)
 
     if (nrElementos.length == 5){
