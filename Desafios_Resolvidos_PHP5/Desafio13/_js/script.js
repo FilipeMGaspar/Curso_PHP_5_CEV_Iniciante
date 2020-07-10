@@ -47,9 +47,11 @@ function adicionarNaLista(num){
 }
 
 function estaNaLista(nr, lstElementos){
-    nrElementos.indexOf
-    if(lstElementos.indexOf(nr)==-1){
+   
+    if(lstElementos.indexOf(nr) == -1){
         return true
+    }else{
+        return false
     }
 
 }
