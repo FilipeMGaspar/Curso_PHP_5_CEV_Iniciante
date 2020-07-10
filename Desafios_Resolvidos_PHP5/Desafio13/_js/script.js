@@ -35,6 +35,7 @@ function adicionarNaLista(num){
         inptForm.value = `${num}`
         inptForm.className = 'escondido'
         formPHP.appendChild(inptForm)
+        iniciar()
     }else{
         alert(`!![ERRO]!! O Número ${num} já se encontra na lista!`)
         iniciar()
