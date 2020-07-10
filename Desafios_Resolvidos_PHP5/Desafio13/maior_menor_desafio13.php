@@ -9,7 +9,15 @@
 <body>
     <div>
         <?php
-            $val[] = isset($_GET["val1"]) ? $_GET["val1"] : "";
+            $c=1;
+
+            while($c<=5){
+                $val = "val".$c;
+                $url = $val;
+                $$v = isset($_GET["val$c"]) ? $_GET["val$c"] : "";
+                var_dump ($$v)
+                echo "<br>";
+            }
         ?>        
         <br><br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>     
