@@ -29,7 +29,9 @@ function adicionarNaLista(num){
     nrElementos.push(num)
     
     let inptForm = document.createElement('input')
-    
+    inptForm.type = 'number'
+    inptForm.name = val+`${nrElementos.length}`
+    formPHP.appendChild(inptForm)
 
     if (nrElementos.length == 5){
         btnAdiciona.style.display = 'none'
