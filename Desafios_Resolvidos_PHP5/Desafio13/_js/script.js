@@ -28,6 +28,7 @@ function adicionarNaLista(num){
     CxSelNr.appendChild(itenOption)
     nrElementos.push(num)
     
+    let inptForm = document.createElement('input')
     
 
     if (nrElementos.length == 5){
