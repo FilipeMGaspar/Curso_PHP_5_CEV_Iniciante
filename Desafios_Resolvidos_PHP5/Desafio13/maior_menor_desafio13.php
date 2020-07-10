@@ -15,8 +15,10 @@
                 $val = "val".$c;
                 $url = $val;
                 $$v = isset($_GET["val$c"]) ? $_GET["val$c"] : "";
-                var_dump ($$v)
+                $vet[] = $$v;
+                var_dump ($vet);
                 echo "<br>";
+                $c++;
             }
         ?>        
         <br><br>
