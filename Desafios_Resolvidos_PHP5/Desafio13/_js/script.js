@@ -46,3 +46,8 @@ function adicionarNaLista(num){
     }
 }
 
+function estaNaLista(nr, lstElementos){
+    //nrElementos.indexOf
+    
+
+}
