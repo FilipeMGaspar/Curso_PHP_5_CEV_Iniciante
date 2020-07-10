@@ -8,8 +8,9 @@
 </head>
 <body>
     <div>
-        
-        
+        <?php
+            $val[] = isset($_GET["val1"]) ? $_GET["val1"] : "";
+        ?>        
         <br><br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>     
     </div>
