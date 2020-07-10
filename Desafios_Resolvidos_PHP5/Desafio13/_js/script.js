@@ -21,7 +21,7 @@ function adicionar(){
 function adicionarNaLista(num){   
     let btnAdiciona = document.querySelector('input#btnAdiciona')  
     let btnMaiorMenor = document.querySelector('input#btnMaiorMenor')
-    let formPHP = document.querySelector('form#formPHP')
+    let formPHP = document.getElementById('formPHP')
     
     let itenOption = document.createElement('option')
     itenOption.text = `${num}`
