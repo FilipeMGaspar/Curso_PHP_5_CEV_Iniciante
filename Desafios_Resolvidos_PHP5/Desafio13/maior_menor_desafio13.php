@@ -10,12 +10,13 @@
     <div>
         <?php
             $c=1;
-            
+            $maior = isset($_GET["val1"]) ? $_GET["val1"] : "";
+            $menor = isset($_GET["val1"]) ? $_GET["val1"] : "";
 
             while($c<=5){
                 $val = "val".$c;
                 $url = $val;
-                $$v = isset($_GET["val$c"]) ? $_GET["val$c"] : "";
+                $$v = $_GET["val$c"];
                 echo $$v;
                 echo "<br>";
                 $c++;
