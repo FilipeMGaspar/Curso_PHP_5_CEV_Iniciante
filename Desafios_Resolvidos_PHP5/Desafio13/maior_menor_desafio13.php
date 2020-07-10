@@ -10,13 +10,13 @@
     <div>
         <?php
             $c=1;
+            
 
             while($c<=5){
                 $val = "val".$c;
                 $url = $val;
                 $$v = isset($_GET["val$c"]) ? $_GET["val$c"] : "";
-                $vet[] = $$v;
-                var_dump ($vet);
+                echo $$v;
                 echo "<br>";
                 $c++;
             }
