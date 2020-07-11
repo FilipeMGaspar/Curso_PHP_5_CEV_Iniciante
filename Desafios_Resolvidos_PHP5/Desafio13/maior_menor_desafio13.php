@@ -28,7 +28,10 @@
             echo "Maior: $maior";
         ?>        
         <br><br>
+        <a href="Desafio13.html" class="botao">Voltar</a> 
+        <!--
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>     
+        -->
     </div>
     
 </body>
