@@ -22,6 +22,9 @@
                     $maior = $$v;
                 }
 
+                if($$v<$menor){
+                    $menor = $$v;
+                }
                 
                 echo $$v;
                 echo "<br>";
