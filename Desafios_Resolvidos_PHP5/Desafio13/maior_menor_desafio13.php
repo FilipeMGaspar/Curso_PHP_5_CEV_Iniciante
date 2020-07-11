@@ -17,10 +17,15 @@
                 $val = "val".$c;
                 $url = $val;
                 $$v = $_GET["val$c"];
+                if($$v>$maior){
+                    $maior = $$v;
+                }
                 echo $$v;
                 echo "<br>";
                 $c++;
             }
+            echo "<br><br>";
+            echo "Maior: $maior";
         ?>        
         <br><br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>     
