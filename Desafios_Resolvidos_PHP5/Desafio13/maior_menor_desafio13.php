@@ -31,7 +31,8 @@
                 $c++;
             }
             echo "<br><br>";
-            echo "<h2>Maior: <span class='foco'>$maior</span></h2>";
+            echo "<h1>Maior e menor Número!</h1>";
+            echo "<br><h2>Maior: <span class='foco'>$maior</span></h2><br>";
             echo "<h3>Menor: <span class='foco'>$menor</span></h3>"
         ?>        
         <br><br>
