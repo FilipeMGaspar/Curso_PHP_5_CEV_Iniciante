@@ -17,9 +17,12 @@
                 $val = "val".$c;
                 $url = $val;
                 $$v = $_GET["val$c"];
+
                 if($$v>$maior){
                     $maior = $$v;
                 }
+
+                
                 echo $$v;
                 echo "<br>";
                 $c++;
