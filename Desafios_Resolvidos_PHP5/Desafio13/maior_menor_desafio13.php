@@ -25,13 +25,14 @@
                 if($$v<$menor){
                     $menor = $$v;
                 }
-                
+
                 echo $$v;
                 echo "<br>";
                 $c++;
             }
             echo "<br><br>";
             echo "<h2>Maior: <span class='foco'>$maior</span></h2>";
+            echo "<h3>Menor: <span class='foco'>$menor</span></h3>"
         ?>        
         <br><br>
         <a href="Desafio13.html" class="botao">Voltar</a> 
