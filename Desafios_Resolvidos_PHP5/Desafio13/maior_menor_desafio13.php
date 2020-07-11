@@ -25,7 +25,7 @@
                 $c++;
             }
             echo "<br><br>";
-            echo "Maior: $maior";
+            echo "<h2>Maior:<h2> <span class='foco'>$maior</span>";
         ?>        
         <br><br>
         <a href="Desafio13.html" class="botao">Voltar</a> 
