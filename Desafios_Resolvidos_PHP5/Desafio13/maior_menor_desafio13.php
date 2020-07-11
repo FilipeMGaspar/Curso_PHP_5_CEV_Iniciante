@@ -13,6 +13,9 @@
             $maior = isset($_GET["val1"]) ? $_GET["val1"] : "";
             $menor = isset($_GET["val1"]) ? $_GET["val1"] : "";
 
+            if(($maior=="") || ($menor=="")){
+                echo "<h1>ERRO !!! Os números não foram inseridos.</h1>";
+            }
             while($c<=5){
                 $val = "val".$c;
                 $url = $val;
@@ -25,9 +28,6 @@
                 if($$v<$menor){
                     $menor = $$v;
                 }
-
-                echo $$v;
-                echo "<br>";
                 $c++;
             }
             echo "<br><br>";
