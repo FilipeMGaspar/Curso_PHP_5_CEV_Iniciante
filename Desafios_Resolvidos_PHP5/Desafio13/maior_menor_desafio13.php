@@ -13,7 +13,7 @@
             $maior = isset($_GET["val1"]) ? $_GET["val1"] : "";
             $menor = isset($_GET["val1"]) ? $_GET["val1"] : "";
 
-            if(($maior=="") || ($menor=="")){
+            if(($maior == "") || ($menor=="")){
                 echo "<h1>ERRO !!! Os números não foram inseridos.</h1>";
             }else{
                 while($c<=5){
@@ -33,10 +33,10 @@
                 echo "<br><br>";
                 echo "<h1>Maior e menor Número!</h1>";
                 echo "<br><h2>Maior: <span class='foco'>$maior</span></h2><br>";
-                echo "<h3>Menor: <span class='foco'>$menor</span></h3>"
+                echo "<h3>Menor: <span class='foco'>$menor</span></h3>";
             }           
         ?>   
-             
+
         <br><br>
         <a href="Desafio13.html" class="botao">Voltar</a> 
         <!--
