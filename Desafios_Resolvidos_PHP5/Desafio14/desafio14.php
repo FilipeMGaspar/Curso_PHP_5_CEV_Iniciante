@@ -24,7 +24,8 @@
                 }else{
                     $multDeCinco = " NÃO é Multiplo de 5"; 
                 }
-                echo "<br><h3><span class='foco'>$multDeTres $multDeCinco</span></h3>";
+                echo "<br><h3><span class='foco'>$multDeTres</span></h3>";
+                echo "<br><h3><span class='foco'>$multDeCinco</span></h3>";
             }else{
                 echo "<h2>ERRO! Não recebi nenhum número!</h2>";
             }
