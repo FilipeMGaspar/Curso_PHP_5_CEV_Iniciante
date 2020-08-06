@@ -12,7 +12,7 @@
             $num = isset($_GET["tCxNum"]) ? $_GET["tCxNum"] : "";
 
             if($num != ""){
-                echo "<h2> O Número $num </h2>";
+                echo "<h2> O Número <span class='foco'>$num</span> </h2>";
             }else{
                 echo "ERRO! Não recebio nenhum número!";
             }
