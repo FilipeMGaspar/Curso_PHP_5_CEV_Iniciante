@@ -14,7 +14,7 @@
             if($num != ""){
                 echo "<h2> O Número <span class='foco'>$num</span> </h2>";
             }else{
-                echo "ERRO! Não recebio nenhum número!";
+                echo "<h2>ERRO! Não recebi nenhum número!</h2>";
             }
         ?>        
         <br><br>
