@@ -13,6 +13,14 @@
 
             if($num != ""){
                 echo "<h2> O Número <span class='foco'>$num</span> </h2>";
+
+                if($num%3 == 0){
+                   $multDeTres = "É Multiplo de 3"; 
+                }else{
+                    $multDeTres = "NÃO é multiplo de 3";
+                }
+
+                echo "<h3>$multDeTres</h3>";
             }else{
                 echo "<h2>ERRO! Não recebi nenhum número!</h2>";
             }
