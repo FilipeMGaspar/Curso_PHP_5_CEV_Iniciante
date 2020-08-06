@@ -8,8 +8,15 @@
 </head>
 <body>
     <div>
-        
-        
+        <?php
+            $num = isset($_GET["tCxNum"]) ? $_GET["tCxNum"] : "";
+
+            if($num != ""){
+                echo "<h2> O Número $num </h2>";
+            }else{
+                echo "ERRO! Não recebio nenhum número!";
+            }
+        ?>        
         <br><br>
         <a href="javascript:history.go(-1)" class="botao">Voltar</a>     
     </div>
